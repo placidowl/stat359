@@ -1,5 +1,7 @@
 *.pth
-*.png
 *.model
 *.npy
 __pycache__
+
+# Allow plot PNGs inside outputs
+!outputs/*.png
