@@ -19,9 +19,11 @@ from tqdm import tqdm
 from gensim.models import KeyedVectors
 import random
 
-
 torch.manual_seed(42)
 np.random.seed(42)
+random.seed(42)
+if torch.cuda.is_available():
+    torch.cuda.manual_seed_all(42)
 
 
 print("\n========== Loading Dataset ==========")
@@ -118,6 +120,7 @@ input_dim = X.shape[1]
 num_classes = len(np.unique(y))
 hidden_dim = 384
 num_layers = 2
+LR = 0.005
 model = MLPClassifier(input_dim, hidden_dim, num_classes, dropout=0.2)
 print(model)
 print(f"Model initialized with input_dim={input_dim}, hidden_dim={hidden_dim}, num_classes={num_classes}")
@@ -129,7 +132,7 @@ device = get_device()
 print(f"Using device: {device}")
 os.makedirs("outputs", exist_ok=True)
 model = model.to(device)
-optimizer = optim.Adam(model.parameters(), lr=0.005, weight_decay=1e-4)
+optimizer = optim.Adam(model.parameters(), lr=LR, weight_decay=1e-4)
 scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='max', factor=0.5, patience=3)
 counts = np.bincount(y_train, minlength=num_classes)  
 class_weights = (counts.sum() / counts).astype(np.float32) 
@@ -219,14 +222,14 @@ axes[0].grid(True)
 axes[1].plot(train_f1_history, label='Train F1')
 axes[1].plot(val_f1_history, label='Val F1')
 axes[1].set_title('MLP F1 Macro Score Curve')
-axes[1].set_ylabel('F1 Score')
+axes[1].set_ylabel('Macro F1 Score')
 axes[1].legend()
 axes[1].grid(True)
 
 # ---- Accuracy ----
 axes[2].plot(train_acc_history, label='Train Accuracy')
 axes[2].plot(val_acc_history, label='Val Accuracy')
-axes[2].set_title('Accuracy Curve')
+axes[2].set_title('MLP Accuracy Curve')
 axes[2].set_xlabel('Epochs')
 axes[2].set_ylabel('Accuracy')
 axes[2].legend()
@@ -238,6 +241,20 @@ for ax in axes:
 
 plt.savefig('outputs/mlp_learning_curves.png')
 plt.close()
+
+# Save accuracy plot separately
+plt.figure(figsize=(8, 6))
+plt.plot(train_acc_history, label='Train Accuracy')
+plt.plot(val_acc_history, label='Val Accuracy')
+plt.title('MLP Accuracy Curve')
+plt.xlabel('Epochs')
+plt.ylabel('Accuracy')
+plt.legend()
+plt.grid(True)
+plt.tight_layout()
+plt.savefig('outputs/mlp_accuracy_learning_curve.png')
+plt.show()
+print("Accuracy curve saved as 'outputs/mlp_accuracy_learning_curve.png'.")
 
 print("Learning curves saved as 'outputs/mlp_learning_curves.png'.")
 
@@ -278,7 +295,7 @@ plt.figure(figsize=(8, 6))
 sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=class_names, yticklabels=class_names)
 plt.ylabel('True Label')
 plt.xlabel('Predicted Label')
-plt.title('Confusion Matrix')
+plt.title('MLP Confusion Matrix')
 plt.savefig('outputs/mlp_confusion_matrix.png')
 plt.show()
 print("Confusion matrix saved as 'outputs/mlp_confusion_matrix.png'.")
