@@ -60,7 +60,6 @@ def load_model_and_tokenizer(model_path: str, tokenizer_path: str, device: str):
             break
 
     if pos_len is None:
-    # fallback: use train_args but safest is 256
         pos_len = train_args.get("max_seq_len", 256)
 
     config = TinyStoriesConfig(
@@ -95,7 +94,6 @@ def generate(model, tokenizer, prompt, device, max_new_tokens, temperature, top_
     input_ids = input_ids[:, -255:]
     prompt_len = input_ids.shape[1]
 
-    # Hard cap total length to 256
     max_length = min(prompt_len + max_new_tokens, 256)
 
     with torch.no_grad():
@@ -138,7 +136,7 @@ def main():
     ]
 
     # ---- stress levels: short vs long generation ----
-    lengths = [30, 60, 120]  # you can change these
+    lengths = [30, 60, 120] 
 
     rows = []
     for (name, prompt) in tests:

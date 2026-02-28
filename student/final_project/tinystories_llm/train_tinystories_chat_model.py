@@ -182,8 +182,16 @@ def train_and_evaluate(args):
     
     # Load dataset
     print(f"Loading dataset: {args.dataset}")
-    dataset = load_dataset(args.dataset)
-    
+    if args.dataset.endswith(".jsonl"):
+        dataset = load_dataset("json", data_files=args.dataset)
+    else:
+        dataset = load_dataset(args.dataset)
+
+    if "valid" not in dataset and "validation" not in dataset:
+    # create a small validation split from train
+        dataset = dataset["train"].train_test_split(test_size=0.1, seed=args.seed)
+        dataset["valid"] = dataset["test"]   # match code expecting "valid"
+         
     # Create train and validation datasets
     train_dataset = TinyStoriesConversationDataset(
         dataset, tokenizer, max_length=args.max_seq_len, 
