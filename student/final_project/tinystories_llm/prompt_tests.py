@@ -1,4 +1,3 @@
-#This file gives different sets of prompts to the tinystory model to collect their response
 import subprocess
 import json
 from pathlib import Path
@@ -7,15 +6,13 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent
 
 MODEL_PATH = BASE_DIR / "tinystories_chat_model" / "best_model.pth"
-TOKENIZER_PATH = BASE_DIR / "bpe_tokenizer_tinystories.pkl"
-
-# Change this if your chat script is inside another folder
-SCRIPT_PATH = BASE_DIR / "chat_with_tinystories_model.py"
+TOKENIZER_PATH = BASE_DIR / "instructor" / "bpe_tokenizer_tinystories.pkl"
+SCRIPT_PATH = BASE_DIR / "instructor" / "chat_with_tinystories_model.py"
 
 DATASET_PATHS = [
-    BASE_DIR / "datasets" / "single_prompts.json",
-    BASE_DIR / "datasets" / "multi_turn_conversations.json",
-    BASE_DIR / "datasets" / "distractor_prompts.json",
+    BASE_DIR / "prompt_set" / "single_prompts.json",
+    BASE_DIR / "prompt_set" / "multi_turn_conversations.json",
+    BASE_DIR / "prompt_set" / "distractor_prompts.json",
 ]
 
 OUTPUT_PATH = BASE_DIR / "results_all_tests.json"
@@ -34,85 +31,84 @@ def check_paths():
         raise FileNotFoundError(f"Model checkpoint not found: {MODEL_PATH}")
     if not TOKENIZER_PATH.exists():
         print(f"Warning: tokenizer file not found: {TOKENIZER_PATH}")
-    for p in DATASET_PATHS:
-        if not p.exists():
-            raise FileNotFoundError(f"Dataset file not found: {p}")
+
+    for path in DATASET_PATHS:
+        if not path.exists():
+            raise FileNotFoundError(f"Dataset file not found: {path}")
 
 
-import sys
-import subprocess
+def run_chat_session(inputs) -> str:
+    """
+    Run the chat script with one or more user inputs.
+    `inputs` should be a list of strings.
+    """
+    input_text = "\n".join(inputs + ["exit"]) + "\n"
 
-def run_single_prompt(prompt: str) -> str:
-    input_text = prompt + "\nexit\n"
     result = subprocess.run(
-        [sys.executable, SCRIPT_PATH, "--model_path", MODEL_PATH],  # IMPORTANT
+        [
+            "python3",
+            str(SCRIPT_PATH),
+            "--model_path",
+            str(MODEL_PATH),
+            "--tokenizer_path",
+            str(TOKENIZER_PATH),
+        ],
         input=input_text,
         text=True,
         capture_output=True,
         cwd=str(BASE_DIR),
     )
 
-    # DEBUG
-    print("RETURN CODE:", result.returncode)
-    if result.stderr.strip():
-        print("=== STDERR ===")
-        print(result.stderr)
+    if result.returncode != 0:
+        print("ERROR running chat session")
+        print("STDERR:\n", result.stderr)
 
-    return result.stdout
-
-
-def run_multi_turn(turns) -> str:
-    input_text = "\n".join(turns + ["exit"]) + "\n"
-    result = subprocess.run(
-        [sys.executable, SCRIPT_PATH, "--model_path", MODEL_PATH],
-        input=input_text,
-        text=True,
-        capture_output=True,
-        cwd=str(BASE_DIR),
-    )
-
-    # DEBUG
-    print("RETURN CODE:", result.returncode)
-    if result.stderr.strip():
-        print("=== STDERR ===")
-        print(result.stderr)
-        
     return result.stdout
 
 
 def extract_single_response(raw_output: str) -> str:
+    """
+    Extract the last assistant response from raw stdout.
+    Works even if lines look like: 'You: Assistant: ...'
+    """
     lines = raw_output.splitlines()
     assistant_lines = [line for line in lines if "Assistant:" in line]
+
     if assistant_lines:
         return assistant_lines[-1].split("Assistant:", 1)[1].strip()
+
     return raw_output.strip()
 
 
-def extract_turn_pairs(raw_output: str):
-    lines = raw_output.splitlines()
-    pairs = []
-    current_user = None
+def extract_assistant_responses(raw_output: str):
+    """
+    Extract all assistant responses from raw stdout.
+    For multi-turn parsing, we only need assistant replies,
+    because the original user prompts are already in the dataset.
+    """
+    responses = []
 
-    for line in lines:
-        if "You:" in line:
-            current_user = line.split("You:", 1)[1].strip()
-        elif "Assistant:" in line:
-            assistant = line.split("Assistant:", 1)[1].strip()
-            pairs.append({
-                "prompt": current_user,
-                "response": assistant
-            })
-            current_user = None
+    for line in raw_output.splitlines():
+        line = line.strip()
+        if not line:
+            continue
 
-    return pairs
+        if "Assistant:" in line:
+            reply = line.split("Assistant:", 1)[1].strip()
+            if reply:
+                responses.append(reply)
+
+    return responses
 
 
 def load_all_datasets(dataset_paths):
     all_items = []
+
     for path in dataset_paths:
         with open(path, "r", encoding="utf-8") as f:
             data = json.load(f)
             all_items.extend(data)
+
     return all_items
 
 
@@ -126,7 +122,7 @@ def main():
         category = item.get("category", "unknown")
 
         if "prompt" in item:
-            raw_output = run_single_prompt(item["prompt"])
+            raw_output = run_chat_session([item["prompt"]])
             response = extract_single_response(raw_output)
 
             results.append({
@@ -134,40 +130,45 @@ def main():
                 "category": category,
                 "prompt": item["prompt"],
                 "response": response,
-                "raw_output": raw_output
+                "raw_output": raw_output,
             })
 
         elif "turns" in item:
-            raw_output = run_multi_turn(item["turns"])
-            parsed_turns = extract_turn_pairs(raw_output)
+            raw_output = run_chat_session(item["turns"])
+            assistant_responses = extract_assistant_responses(raw_output)
 
-    # align parsed assistant responses with original user turns
+            if len(assistant_responses) != len(item["turns"]):
+                print(
+                    f"WARNING: {item_id} has {len(item['turns'])} user turns "
+                    f"but {len(assistant_responses)} assistant responses"
+                )
+
             merged_turns = []
-            for i, user_turn in enumerate(item["turns"][:len(parsed_turns)]):
+            for user_turn, assistant_reply in zip(item["turns"], assistant_responses):
                 merged_turns.append({
-                "prompt": user_turn,
-                "response": parsed_turns[i]["response"]
+                    "prompt": user_turn,
+                    "response": assistant_reply,
                 })
 
             results.append({
                 "id": item_id,
                 "category": category,
                 "turns": merged_turns,
-                "raw_output": raw_output
-                })
+                "raw_output": raw_output,
+            })
 
         else:
             results.append({
                 "id": item_id,
                 "category": category,
-                "error": "Item has neither 'prompt' nor 'turns'"
+                "error": "Item has neither 'prompt' nor 'turns'",
             })
 
         print(f"Finished {item_id}")
 
     OUTPUT_PATH.write_text(
         json.dumps(results, indent=2, ensure_ascii=False),
-        encoding="utf-8"
+        encoding="utf-8",
     )
     print(f"Saved results to {OUTPUT_PATH}")
 
