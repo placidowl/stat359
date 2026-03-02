@@ -4,46 +4,93 @@ import subprocess
 import json
 from pathlib import Path
 
+# Base directory = folder where this file lives
+BASE_DIR = Path(__file__).resolve().parent
 
-MODEL_PATH = "tinystories_chat_model/best_model.pth"
-SCRIPT_PATH = "chat_with_tinystories_model.py"
+MODEL_PATH = BASE_DIR / "tinystories_chat_model" / "best_model.pth"
+TOKENIZER_PATH = BASE_DIR / "instructor"/"bpe_tokenizer_tinystories.pkl"
+
+# Change this if your chat script is inside another folder
+SCRIPT_PATH = BASE_DIR /"instructor"/"chat_with_tinystories_model.py"
 
 DATASET_PATHS = [
-    "datasets/single_prompts.json",
-    "datasets/multi_turn_conversations.json",
-    "datasets/distractor_prompts.json",
+    BASE_DIR / "datasets" / "single_prompts.json",
+    BASE_DIR / "datasets" / "multi_turn_conversations.json",
+    BASE_DIR / "datasets" / "distractor_prompts.json",
 ]
 
-OUTPUT_PATH = "results_all_tests.json"
+OUTPUT_PATH = BASE_DIR / "results_all_tests.json"
+
+
+def check_paths():
+    print("=== Checking paths ===")
+    print("BASE_DIR:", BASE_DIR)
+    print("SCRIPT_PATH:", SCRIPT_PATH)
+    print("MODEL_PATH:", MODEL_PATH)
+    print("TOKENIZER_PATH:", TOKENIZER_PATH)
+
+    if not SCRIPT_PATH.exists():
+        raise FileNotFoundError(f"Chat script not found: {SCRIPT_PATH}")
+    if not MODEL_PATH.exists():
+        raise FileNotFoundError(f"Model checkpoint not found: {MODEL_PATH}")
+    if not TOKENIZER_PATH.exists():
+        print(f"Warning: tokenizer file not found: {TOKENIZER_PATH}")
+    for p in DATASET_PATHS:
+        if not p.exists():
+            raise FileNotFoundError(f"Dataset file not found: {p}")
 
 
 def run_single_prompt(prompt: str) -> str:
     input_text = prompt + "\nexit\n"
     result = subprocess.run(
-        ["python3", SCRIPT_PATH, "--model_path", MODEL_PATH],
+        [
+            "python3",
+            str(SCRIPT_PATH),
+            "--model_path",
+            str(MODEL_PATH),
+            "--tokenizer_path",
+            str(TOKENIZER_PATH),
+        ],
         input=input_text,
         text=True,
-        capture_output=True
+        capture_output=True,
+        cwd=str(BASE_DIR),
     )
+
+    if result.returncode != 0:
+        print("ERROR running single prompt")
+        print("STDERR:\n", result.stderr)
     return result.stdout
 
 
 def run_multi_turn(turns) -> str:
     input_text = "\n".join(turns + ["exit"]) + "\n"
     result = subprocess.run(
-        ["python3", SCRIPT_PATH, "--model_path", MODEL_PATH],
+        [
+            "python3",
+            str(SCRIPT_PATH),
+            "--model_path",
+            str(MODEL_PATH),
+            "--tokenizer_path",
+            str(TOKENIZER_PATH),
+        ],
         input=input_text,
         text=True,
-        capture_output=True
+        capture_output=True,
+        cwd=str(BASE_DIR),
     )
+
+    if result.returncode != 0:
+        print("ERROR running multi-turn prompt")
+        print("STDERR:\n", result.stderr)
     return result.stdout
 
 
 def extract_single_response(raw_output: str) -> str:
     lines = raw_output.splitlines()
-    assistant_lines = [line for line in lines if line.startswith("Assistant:")]
+    assistant_lines = [line for line in lines if "Assistant:" in line]
     if assistant_lines:
-        return assistant_lines[-1].replace("Assistant:", "").strip()
+        return assistant_lines[-1].split("Assistant:", 1)[1].strip()
     return raw_output.strip()
 
 
@@ -53,10 +100,10 @@ def extract_turn_pairs(raw_output: str):
     current_user = None
 
     for line in lines:
-        if line.startswith("You:"):
-            current_user = line.replace("You:", "").strip()
-        elif line.startswith("Assistant:"):
-            assistant = line.replace("Assistant:", "").strip()
+        if "You:" in line:
+            current_user = line.split("You:", 1)[1].strip()
+        elif "Assistant:" in line:
+            assistant = line.split("Assistant:", 1)[1].strip()
             pairs.append({
                 "prompt": current_user,
                 "response": assistant
@@ -76,6 +123,7 @@ def load_all_datasets(dataset_paths):
 
 
 def main():
+    check_paths()
     dataset = load_all_datasets(DATASET_PATHS)
     results = []
 
@@ -83,7 +131,6 @@ def main():
         item_id = item.get("id", "unknown")
         category = item.get("category", "unknown")
 
-        # Case 1: single prompt dataset
         if "prompt" in item:
             raw_output = run_single_prompt(item["prompt"])
             response = extract_single_response(raw_output)
@@ -96,7 +143,6 @@ def main():
                 "raw_output": raw_output
             })
 
-        # Case 2: multi-turn conversation dataset
         elif "turns" in item:
             raw_output = run_multi_turn(item["turns"])
             turn_pairs = extract_turn_pairs(raw_output)
@@ -117,7 +163,7 @@ def main():
 
         print(f"Finished {item_id}")
 
-    Path(OUTPUT_PATH).write_text(
+    OUTPUT_PATH.write_text(
         json.dumps(results, indent=2, ensure_ascii=False),
         encoding="utf-8"
     )
