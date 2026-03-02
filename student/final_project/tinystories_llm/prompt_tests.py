@@ -17,25 +17,42 @@ DATASET_PATHS = [
 OUTPUT_PATH = "results_all_tests.json"
 
 
+import sys
+import subprocess
+
 def run_single_prompt(prompt: str) -> str:
     input_text = prompt + "\nexit\n"
     result = subprocess.run(
-        ["python3", SCRIPT_PATH, "--model_path", MODEL_PATH],
+        [sys.executable, SCRIPT_PATH, "--model_path", MODEL_PATH],  # IMPORTANT
         input=input_text,
         text=True,
         capture_output=True
     )
+
+    # DEBUG
+    print("RETURN CODE:", result.returncode)
+    if result.stderr.strip():
+        print("=== STDERR ===")
+        print(result.stderr)
+
     return result.stdout
 
 
 def run_multi_turn(turns) -> str:
     input_text = "\n".join(turns + ["exit"]) + "\n"
     result = subprocess.run(
-        ["python3", SCRIPT_PATH, "--model_path", MODEL_PATH],
+        [sys.executable, SCRIPT_PATH, "--model_path", MODEL_PATH],
         input=input_text,
         text=True,
         capture_output=True
     )
+
+    # DEBUG
+    print("RETURN CODE:", result.returncode)
+    if result.stderr.strip():
+        print("=== STDERR ===")
+        print(result.stderr)
+        
     return result.stdout
 
 

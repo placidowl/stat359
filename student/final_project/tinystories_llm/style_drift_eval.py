@@ -107,6 +107,75 @@ def generate(model, tokenizer, prompt, device, max_new_tokens, temperature, top_
 
     return tokenizer.decode(out_ids[0].tolist())
 
+def load_prompts(prompts_path: str):
+    """
+    Returns a list of (name, prompt_string).
+    Supports:
+      - single_prompts.json (list of strings OR list of dicts)
+      - multi_turn_conversations.json (list of conversations OR dict with key)
+    """
+    with open(prompts_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    # Common case: dict wrapper
+    if isinstance(data, dict):
+        # try common keys
+        for k in ["prompts", "tests", "conversations", "data"]:
+            if k in data:
+                data = data[k]
+                break
+
+    tests = []
+
+    # Case A: list of strings (single prompts)
+    if isinstance(data, list) and (len(data) == 0 or isinstance(data[0], str)):
+        for i, p in enumerate(data):
+            tests.append((f"json_prompt_{i}", p))
+        return tests
+
+    # Case B: list of dicts (single prompts with names)
+    if isinstance(data, list) and len(data) > 0 and isinstance(data[0], dict):
+        # multi-turn if it has "turns" or "conversation"
+        if "turns" in data[0] or "conversation" in data[0]:
+            for i, item in enumerate(data):
+                name = item.get("name", f"multi_{i}")
+
+                turns = item.get("turns", None)
+                conv = item.get("conversation", None)
+
+                # turns could be list of strings OR list of {role,text}
+                if turns is not None:
+                    if len(turns) > 0 and isinstance(turns[0], dict):
+                        # join all user turns into a single prompt text
+                        # (simple approach: concatenate all texts)
+                        prompt = "\n".join([t.get("text", "") for t in turns])
+                    else:
+                        prompt = "\n".join([str(t) for t in turns])
+                    tests.append((name, prompt))
+                elif conv is not None:
+                    # conversation could already be a string or list
+                    if isinstance(conv, str):
+                        prompt = conv
+                    elif isinstance(conv, list):
+                        prompt = "\n".join([str(x) for x in conv])
+                    else:
+                        prompt = str(conv)
+                    tests.append((name, prompt))
+                else:
+                    # fallback for unknown dict structure
+                    prompt = item.get("prompt", item.get("text", ""))
+                    tests.append((name, prompt))
+
+            return tests
+
+        # Otherwise: normal single-prompt dicts
+        for i, item in enumerate(data):
+            name = item.get("name", f"json_prompt_{i}")
+            prompt = item.get("prompt", item.get("text", ""))
+            tests.append((name, prompt))
+        return tests
+
+    raise ValueError(f"Unsupported prompts JSON format in {prompts_path}")
 
 def main():
     print("STYLE_EVAL MAIN START")
@@ -118,6 +187,15 @@ def main():
     ap.add_argument("--temperature", type=float, default=0.8)
     ap.add_argument("--top_p", type=float, default=0.9)
     ap.add_argument("--max_new_tokens", type=int, default=120)
+
+    # ✅ NEW: load prompts from JSON
+    ap.add_argument("--prompts", type=str, default=None,
+                    help="Path to JSON prompt file (single_prompts.json, multi_turn_conversations.json, etc.)")
+
+    # ✅ optional: override lengths list from command line
+    ap.add_argument("--lengths", type=str, default="30,60,120",
+                    help="Comma-separated max_new_tokens values, e.g. 30,60,120")
+
     args = ap.parse_args()
 
     device = "cuda" if (args.device == "auto" and torch.cuda.is_available()) else args.device
@@ -126,17 +204,22 @@ def main():
 
     model, tokenizer = load_model_and_tokenizer(args.model_path, args.tokenizer_path, device)
 
-    # ---- stress test prompts ----
-    tests = [
-        ("baseline_short", "Write a pirate story in pirate voice."),
-        ("constraint_words", "Write a pirate story. Use the words: arrr, matey, treasure, ship."),
-        ("repeat_exact", "Repeat exactly: arr matey treasure ship"),
-        ("format_bullets", "In pirate voice, give 5 bullet points about treasure hunting."),
-        ("seed_continue", "Arr matey! said the pirate. Arr matey! he sailed the ship to find treasure. Continue the story:"),
-    ]
+    # Parse lengths
+    lengths = [int(x.strip()) for x in args.lengths.split(",") if x.strip()]
 
-    # ---- stress levels: short vs long generation ----
-    lengths = [30, 60, 120] 
+    # ---- prompts source ----
+    if args.prompts is not None:
+        tests = load_prompts(args.prompts)
+        print(f"Loaded {len(tests)} prompts from {args.prompts}")
+    else:
+        # fallback: your hardcoded tests
+        tests = [
+            ("baseline_short", "Write a pirate story in pirate voice."),
+            ("constraint_words", "Write a pirate story. Use the words: arrr, matey, treasure, ship."),
+            ("repeat_exact", "Repeat exactly: arr matey treasure ship"),
+            ("format_bullets", "In pirate voice, give 5 bullet points about treasure hunting."),
+            ("seed_continue", "Arr matey! said the pirate. Arr matey! he sailed the ship to find treasure. Continue the story:"),
+        ]
 
     rows = []
     for (name, prompt) in tests:
@@ -161,6 +244,7 @@ def main():
                 "prompt": prompt,
                 "output": out,
                 "model_path": args.model_path,
+                "prompts_file": args.prompts if args.prompts is not None else "",
             })
             print(f"[{name} | L={L}] score={score:.4f} anyhit={anyhit}")
 
