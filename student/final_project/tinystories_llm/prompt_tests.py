@@ -66,23 +66,11 @@ def run_single_prompt(prompt: str) -> str:
 def run_multi_turn(turns) -> str:
     input_text = "\n".join(turns + ["exit"]) + "\n"
     result = subprocess.run(
-        [
-            "python3",
-            str(SCRIPT_PATH),
-            "--model_path",
-            str(MODEL_PATH),
-            "--tokenizer_path",
-            str(TOKENIZER_PATH),
-        ],
+        ["python3", SCRIPT_PATH, "--model_path", MODEL_PATH],
         input=input_text,
         text=True,
-        capture_output=True,
-        cwd=str(BASE_DIR),
+        capture_output=True
     )
-
-    if result.returncode != 0:
-        print("ERROR running multi-turn prompt")
-        print("STDERR:\n", result.stderr)
     return result.stdout
 
 
