@@ -7,10 +7,10 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent
 
 MODEL_PATH = BASE_DIR / "tinystories_chat_model" / "best_model.pth"
-TOKENIZER_PATH = BASE_DIR / "instructor"/"bpe_tokenizer_tinystories.pkl"
+TOKENIZER_PATH = BASE_DIR / "bpe_tokenizer_tinystories.pkl"
 
 # Change this if your chat script is inside another folder
-SCRIPT_PATH = BASE_DIR / "instructor"/"chat_with_tinystories_model.py"
+SCRIPT_PATH = BASE_DIR / "chat_with_tinystories_model.py"
 
 DATASET_PATHS = [
     BASE_DIR / "datasets" / "single_prompts.json",
@@ -45,72 +45,38 @@ import subprocess
 def run_single_prompt(prompt: str) -> str:
     input_text = prompt + "\nexit\n"
     result = subprocess.run(
-<<<<<<< HEAD
         [sys.executable, SCRIPT_PATH, "--model_path", MODEL_PATH],  # IMPORTANT
-=======
-        [
-            "python3",
-            str(SCRIPT_PATH),
-            "--model_path",
-            str(MODEL_PATH),
-            "--tokenizer_path",
-            str(TOKENIZER_PATH),
-        ],
->>>>>>> 8fdd8fda0d81ccbab58b3eb2f3cb289661cac1e5
         input=input_text,
         text=True,
         capture_output=True,
         cwd=str(BASE_DIR),
     )
 
-<<<<<<< HEAD
     # DEBUG
     print("RETURN CODE:", result.returncode)
     if result.stderr.strip():
         print("=== STDERR ===")
         print(result.stderr)
 
-=======
-    if result.returncode != 0:
-        print("ERROR running single prompt")
-        print("STDERR:\n", result.stderr)
->>>>>>> 8fdd8fda0d81ccbab58b3eb2f3cb289661cac1e5
     return result.stdout
 
 
 def run_multi_turn(turns) -> str:
     input_text = "\n".join(turns + ["exit"]) + "\n"
     result = subprocess.run(
-<<<<<<< HEAD
         [sys.executable, SCRIPT_PATH, "--model_path", MODEL_PATH],
-=======
-        [
-            "python3",
-            str(SCRIPT_PATH),
-            "--model_path",
-            str(MODEL_PATH),
-            "--tokenizer_path",
-            str(TOKENIZER_PATH),
-        ],
->>>>>>> 8fdd8fda0d81ccbab58b3eb2f3cb289661cac1e5
         input=input_text,
         text=True,
         capture_output=True,
         cwd=str(BASE_DIR),
     )
 
-<<<<<<< HEAD
     # DEBUG
     print("RETURN CODE:", result.returncode)
     if result.stderr.strip():
         print("=== STDERR ===")
         print(result.stderr)
         
-=======
-    if result.returncode != 0:
-        print("ERROR running multi-turn prompt")
-        print("STDERR:\n", result.stderr)
->>>>>>> 8fdd8fda0d81ccbab58b3eb2f3cb289661cac1e5
     return result.stdout
 
 

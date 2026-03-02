@@ -123,6 +123,11 @@ def main():
             response = after_assistant.strip()
         else:
             response = output_text.strip()
+
+        for tok in ["<eos>", "<bos>", "<pad>", "<unk>"]:
+            response = response.replace(tok, "")
+        response = " ".join(response.split())  
+# ---------------------------------------------------------
         print(f"Assistant: {response}\n")
         # Append assistant turn
         conversation_history.append((args.assistant_token, response))
