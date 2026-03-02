@@ -1,5 +1,4 @@
 #This file gives different sets of prompts to the tinystory model to collect their response
-
 import subprocess
 import json
 from pathlib import Path
@@ -11,7 +10,7 @@ MODEL_PATH = BASE_DIR / "tinystories_chat_model" / "best_model.pth"
 TOKENIZER_PATH = BASE_DIR / "instructor"/"bpe_tokenizer_tinystories.pkl"
 
 # Change this if your chat script is inside another folder
-SCRIPT_PATH = BASE_DIR /"instructor"/"chat_with_tinystories_model.py"
+SCRIPT_PATH = BASE_DIR / "instructor"/"chat_with_tinystories_model.py"
 
 DATASET_PATHS = [
     BASE_DIR / "datasets" / "single_prompts.json",
@@ -66,11 +65,23 @@ def run_single_prompt(prompt: str) -> str:
 def run_multi_turn(turns) -> str:
     input_text = "\n".join(turns + ["exit"]) + "\n"
     result = subprocess.run(
-        ["python3", SCRIPT_PATH, "--model_path", MODEL_PATH],
+        [
+            "python3",
+            str(SCRIPT_PATH),
+            "--model_path",
+            str(MODEL_PATH),
+            "--tokenizer_path",
+            str(TOKENIZER_PATH),
+        ],
         input=input_text,
         text=True,
-        capture_output=True
+        capture_output=True,
+        cwd=str(BASE_DIR),
     )
+
+    if result.returncode != 0:
+        print("ERROR running multi-turn prompt")
+        print("STDERR:\n", result.stderr)
     return result.stdout
 
 
@@ -133,14 +144,22 @@ def main():
 
         elif "turns" in item:
             raw_output = run_multi_turn(item["turns"])
-            turn_pairs = extract_turn_pairs(raw_output)
+            parsed_turns = extract_turn_pairs(raw_output)
+
+    # align parsed assistant responses with original user turns
+            merged_turns = []
+            for i, user_turn in enumerate(item["turns"][:len(parsed_turns)]):
+                merged_turns.append({
+                "prompt": user_turn,
+                "response": parsed_turns[i]["response"]
+                })
 
             results.append({
                 "id": item_id,
                 "category": category,
-                "turns": turn_pairs,
+                "turns": merged_turns,
                 "raw_output": raw_output
-            })
+                })
 
         else:
             results.append({
