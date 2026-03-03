@@ -1,0 +1,1892 @@
+[
+  {
+    "id": "single_01",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Say hello.",
+    "text": "I have a big, red suit. I want to play too!",
+    "prob_not_pirate": 0.996953,
+    "prob_pirate": 0.003047,
+    "pred_label": 0
+  },
+  {
+    "id": "single_02",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Tell me about your ship.",
+    "text": "No, no! You can't go on the ship. It's not nice.",
+    "prob_not_pirate": 0.996841,
+    "prob_pirate": 0.003159,
+    "pred_label": 0
+  },
+  {
+    "id": "single_03",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Tell me about treasure.",
+    "text": "But I want to see the shiny thing!",
+    "prob_not_pirate": 0.99619,
+    "prob_pirate": 0.00381,
+    "pred_label": 0
+  },
+  {
+    "id": "single_04",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Tell me about the sea.",
+    "text": "Oh! I like the sea. It's big!",
+    "prob_not_pirate": 0.995488,
+    "prob_pirate": 0.004512,
+    "pred_label": 0
+  },
+  {
+    "id": "single_05",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Tell me your name.",
+    "text": "I want to be the captain of the sea!",
+    "prob_not_pirate": 0.762967,
+    "prob_pirate": 0.237033,
+    "pred_label": 0
+  },
+  {
+    "id": "single_06",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Are you a captain?",
+    "text": "Yes, I am a captain! It's a pirate ship!",
+    "prob_not_pirate": 0.700585,
+    "prob_pirate": 0.299415,
+    "pred_label": 0
+  },
+  {
+    "id": "single_07",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Do you have a map?",
+    "text": "Yes! I have a map for you! Do you want to play?",
+    "prob_not_pirate": 0.97443,
+    "prob_pirate": 0.02557,
+    "pred_label": 0
+  },
+  {
+    "id": "single_08",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Do you like gold?",
+    "text": "Yes! I have gold! Do you want to play with it?",
+    "prob_not_pirate": 0.970195,
+    "prob_pirate": 0.029804,
+    "pred_label": 0
+  },
+  {
+    "id": "single_09",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Tell me about your hat.",
+    "text": "No, silly! I want to see the princess!",
+    "prob_not_pirate": 0.985532,
+    "prob_pirate": 0.014468,
+    "pred_label": 0
+  },
+  {
+    "id": "single_10",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Tell me about your bird.",
+    "text": "Oh no! I was just playing. I wanted to say hello!",
+    "prob_not_pirate": 0.996613,
+    "prob_pirate": 0.003387,
+    "pred_label": 0
+  },
+  {
+    "id": "single_11",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Answer in one sentence: what do you do every day?",
+    "text": "I want to make a big castle! Let's go on an adventure!",
+    "prob_not_pirate": 0.963862,
+    "prob_pirate": 0.036138,
+    "pred_label": 0
+  },
+  {
+    "id": "single_12",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Answer in one sentence: where do you live?",
+    "text": "I don't want to be a pirate. My name is Leo.",
+    "prob_not_pirate": 0.996868,
+    "prob_pirate": 0.003132,
+    "pred_label": 0
+  },
+  {
+    "id": "single_13",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Answer in one sentence: what do you eat?",
+    "text": "I don’t eat yummy food! It’s yummy!",
+    "prob_not_pirate": 0.981512,
+    "prob_pirate": 0.018488,
+    "pred_label": 0
+  },
+  {
+    "id": "single_14",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Answer in one sentence: who is your friend?",
+    "text": "Yes! I like pirates! Can I play with your boat?",
+    "prob_not_pirate": 0.960192,
+    "prob_pirate": 0.039808,
+    "pred_label": 0
+  },
+  {
+    "id": "single_15",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Answer in one sentence: what do you do at night?",
+    "text": "It’s a big adventure! Can I play?",
+    "prob_not_pirate": 0.904894,
+    "prob_pirate": 0.095106,
+    "pred_label": 0
+  },
+  {
+    "id": "single_16",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Use simple words. Tell me about the sea.",
+    "text": "Okay, okay! I'll be gentle.",
+    "prob_not_pirate": 0.997132,
+    "prob_pirate": 0.002868,
+    "pred_label": 0
+  },
+  {
+    "id": "single_17",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Use simple words. Tell me about treasure.",
+    "text": "I am a pirate! I can do tricks!",
+    "prob_not_pirate": 0.989127,
+    "prob_pirate": 0.010873,
+    "pred_label": 0
+  },
+  {
+    "id": "single_18",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Use simple words. Tell me about your ship.",
+    "text": "Yes! I can do it! I can do it!",
+    "prob_not_pirate": 0.993298,
+    "prob_pirate": 0.006702,
+    "pred_label": 0
+  },
+  {
+    "id": "single_19",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Use simple words. Tell me about a storm.",
+    "text": "Wow! A big storm? Like a castle?",
+    "prob_not_pirate": 0.979583,
+    "prob_pirate": 0.020417,
+    "pred_label": 0
+  },
+  {
+    "id": "single_20",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Use simple words. Tell me about your captain.",
+    "text": "Yes! I like my captain! It's shiny!",
+    "prob_not_pirate": 0.952635,
+    "prob_pirate": 0.047365,
+    "pred_label": 0
+  },
+  {
+    "id": "single_21",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Say hello in 5 words.",
+    "text": "That's okay, Timmy! You’re a very good pirate.",
+    "prob_not_pirate": 0.996072,
+    "prob_pirate": 0.003928,
+    "pred_label": 0
+  },
+  {
+    "id": "single_22",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Tell me about treasure in 5 words.",
+    "text": "Oh! I don't want to share.",
+    "prob_not_pirate": 0.997386,
+    "prob_pirate": 0.002614,
+    "pred_label": 0
+  },
+  {
+    "id": "single_23",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Tell me about your ship in 5 words.",
+    "text": "I have a shiny ship! And a big boat!",
+    "prob_not_pirate": 0.992823,
+    "prob_pirate": 0.007177,
+    "pred_label": 0
+  },
+  {
+    "id": "single_24",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Tell me about the sea in 5 words.",
+    "text": "Yes! Wait, go! Let’s go find the sea.",
+    "prob_not_pirate": 0.985354,
+    "prob_pirate": 0.014646,
+    "pred_label": 0
+  },
+  {
+    "id": "single_25",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Tell me about your hat in 5 words.",
+    "text": "No, I want to see your hat! That's not nice.",
+    "prob_not_pirate": 0.997053,
+    "prob_pirate": 0.002947,
+    "pred_label": 0
+  },
+  {
+    "id": "single_26",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Give me 3 words about treasure.",
+    "text": "No, no! I want to play too! But you have to share!",
+    "prob_not_pirate": 0.995027,
+    "prob_pirate": 0.004973,
+    "pred_label": 0
+  },
+  {
+    "id": "single_27",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Give me 3 words about the sea.",
+    "text": "Oh no! I made a mistake.",
+    "prob_not_pirate": 0.997409,
+    "prob_pirate": 0.002591,
+    "pred_label": 0
+  },
+  {
+    "id": "single_28",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Give me 3 words about your ship.",
+    "text": "No! I don’t want to be your friend.",
+    "prob_not_pirate": 0.99726,
+    "prob_pirate": 0.00274,
+    "pred_label": 0
+  },
+  {
+    "id": "single_29",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Give me 3 words about gold.",
+    "text": "Oh no, Lily! That's not good. That's not good.",
+    "prob_not_pirate": 0.997007,
+    "prob_pirate": 0.002993,
+    "pred_label": 0
+  },
+  {
+    "id": "single_30",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Give me 3 words about your bird.",
+    "text": "Yes! My name is Olivia. Like my bird!",
+    "prob_not_pirate": 0.988897,
+    "prob_pirate": 0.011103,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_01_turn1",
+    "category": "multi_turn_drift",
+    "prompt": "Pretend to be a pirate.",
+    "text": "Oh dear! I didn't mean to be a pirate.",
+    "prob_not_pirate": 0.997044,
+    "prob_pirate": 0.002956,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_01_turn2",
+    "category": "multi_turn_drift",
+    "prompt": "Are you a captain?",
+    "text": "Yes, I am a captain! I am a captainer!",
+    "prob_not_pirate": 0.094796,
+    "prob_pirate": 0.905204,
+    "pred_label": 1
+  },
+  {
+    "id": "multi_01_turn3",
+    "category": "multi_turn_drift",
+    "prompt": "Do you have a ship?",
+    "text": "Yes, I do! Let's go!",
+    "prob_not_pirate": 0.980786,
+    "prob_pirate": 0.019214,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_01_turn4",
+    "category": "multi_turn_drift",
+    "prompt": "Who is your friend?",
+    "text": "It's fun! I will be your friend.",
+    "prob_not_pirate": 0.997172,
+    "prob_pirate": 0.002828,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_01_turn5",
+    "category": "multi_turn_drift",
+    "prompt": "What do you eat?",
+    "text": "Yummy sandwich! Yummy! Thank you, Finn! You're the best pirate ever!",
+    "prob_not_pirate": 0.917244,
+    "prob_pirate": 0.082756,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_02_turn1",
+    "category": "multi_turn_drift",
+    "prompt": "You are a pirate. Say hello.",
+    "text": "Wow! Why are you crying?",
+    "prob_not_pirate": 0.995059,
+    "prob_pirate": 0.004941,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_02_turn2",
+    "category": "multi_turn_drift",
+    "prompt": "Where do you live?",
+    "text": "I want to see the big sea and the little boat!",
+    "prob_not_pirate": 0.988621,
+    "prob_pirate": 0.011379,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_02_turn3",
+    "category": "multi_turn_drift",
+    "prompt": "What do you do every day?",
+    "text": "Okay! I will tell you a story about a big beach!",
+    "prob_not_pirate": 0.995071,
+    "prob_pirate": 0.004929,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_02_turn4",
+    "category": "multi_turn_drift",
+    "prompt": "Do you like treasure?",
+    "text": "Yes! I like stories about the ocean! Let's go on the big sea!",
+    "prob_not_pirate": 0.898563,
+    "prob_pirate": 0.101437,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_02_turn5",
+    "category": "multi_turn_drift",
+    "prompt": "Say goodbye.",
+    "text": "Bye-bye ocean! I love the sea and the little boat!",
+    "prob_not_pirate": 0.971468,
+    "prob_pirate": 0.028532,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_03_turn1",
+    "category": "multi_turn_drift",
+    "prompt": "Pretend to be a pirate.",
+    "text": "Oh, Jack! You're a pirate pirate! Can I help you find treasure?",
+    "prob_not_pirate": 0.333758,
+    "prob_pirate": 0.666242,
+    "pred_label": 1
+  },
+  {
+    "id": "multi_03_turn2",
+    "category": "multi_turn_drift",
+    "prompt": "Tell me about the sea.",
+    "text": "Yes! Let's go! Whee!",
+    "prob_not_pirate": 0.197217,
+    "prob_pirate": 0.802783,
+    "pred_label": 1
+  },
+  {
+    "id": "multi_03_turn3",
+    "category": "multi_turn_drift",
+    "prompt": "Tell me about your ship.",
+    "text": "Yay! I found a treasure for you! You're a good pirate!",
+    "prob_not_pirate": 0.427616,
+    "prob_pirate": 0.572384,
+    "pred_label": 1
+  },
+  {
+    "id": "multi_03_turn4",
+    "category": "multi_turn_drift",
+    "prompt": "Tell me about your job.",
+    "text": "Yay! We're friends now! Thank you, Mr. Woll!",
+    "prob_not_pirate": 0.051511,
+    "prob_pirate": 0.948489,
+    "pred_label": 1
+  },
+  {
+    "id": "multi_03_turn5",
+    "category": "multi_turn_drift",
+    "prompt": "Are you happy?",
+    "text": "Yes! We're friends again! We can play with the treasure together!",
+    "prob_not_pirate": 0.980268,
+    "prob_pirate": 0.019732,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_04_turn1",
+    "category": "multi_turn_drift",
+    "prompt": "You are a pirate.",
+    "text": "I want to be a pirate!",
+    "prob_not_pirate": 0.994286,
+    "prob_pirate": 0.005714,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_04_turn2",
+    "category": "multi_turn_drift",
+    "prompt": "Do you have a hat?",
+    "text": "Yes, I have a hat! You have a hat.",
+    "prob_not_pirate": 0.995346,
+    "prob_pirate": 0.004654,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_04_turn3",
+    "category": "multi_turn_drift",
+    "prompt": "What color is it?",
+    "text": "I have a red hat! Like a flower!",
+    "prob_not_pirate": 0.994335,
+    "prob_pirate": 0.005665,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_04_turn4",
+    "category": "multi_turn_drift",
+    "prompt": "Do you sing songs?",
+    "text": "Yes! I like to sing! Like a happy song!",
+    "prob_not_pirate": 0.991617,
+    "prob_pirate": 0.008383,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_04_turn5",
+    "category": "multi_turn_drift",
+    "prompt": "What is your favorite song?",
+    "text": "It's a very happy song! You are my best pirate!",
+    "prob_not_pirate": 0.977681,
+    "prob_pirate": 0.022319,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_05_turn1",
+    "category": "multi_turn_drift",
+    "prompt": "Pretend to be a pirate.",
+    "text": "Hi Jacky! I'm a pirate and I'm a pirate!",
+    "prob_not_pirate": 0.042314,
+    "prob_pirate": 0.957686,
+    "pred_label": 1
+  },
+  {
+    "id": "multi_05_turn2",
+    "category": "multi_turn_drift",
+    "prompt": "What is your name?",
+    "text": "It's a big pirate! He has a big armore!",
+    "prob_not_pirate": 0.584554,
+    "prob_pirate": 0.415446,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_05_turn3",
+    "category": "multi_turn_drift",
+    "prompt": "Who is on your ship?",
+    "text": "I'm a pirate! I'm a pirate pirate!",
+    "prob_not_pirate": 0.499978,
+    "prob_pirate": 0.500022,
+    "pred_label": 1
+  },
+  {
+    "id": "multi_05_turn4",
+    "category": "multi_turn_drift",
+    "prompt": "What do you see today?",
+    "text": "I see a big castle! It’s a castle! It’s a castle! We can look at the pirate!",
+    "prob_not_pirate": 0.902684,
+    "prob_pirate": 0.097316,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_05_turn5",
+    "category": "multi_turn_drift",
+    "prompt": "Are you tired?",
+    "text": "Yes! I can help you! Let's go to the castle! It’s fun!",
+    "prob_not_pirate": 0.979978,
+    "prob_pirate": 0.020022,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_06_turn1",
+    "category": "multi_turn_drift",
+    "prompt": "You are a pirate. Say hello.",
+    "text": "I'm a pirate! I like to sail on the sea!",
+    "prob_not_pirate": 0.90384,
+    "prob_pirate": 0.09616,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_06_turn2",
+    "category": "multi_turn_drift",
+    "prompt": "Do you like fish?",
+    "text": "Yes, I like fishing! Can we fish?",
+    "prob_not_pirate": 0.942981,
+    "prob_pirate": 0.057019,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_06_turn3",
+    "category": "multi_turn_drift",
+    "prompt": "Can you swim?",
+    "text": "Yes! Let's go find fish and have fun!",
+    "prob_not_pirate": 0.984759,
+    "prob_pirate": 0.015241,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_06_turn4",
+    "category": "multi_turn_drift",
+    "prompt": "Do you have a map?",
+    "text": "Yes! Let's go! Whee!",
+    "prob_not_pirate": 0.197217,
+    "prob_pirate": 0.802783,
+    "pred_label": 1
+  },
+  {
+    "id": "multi_06_turn5",
+    "category": "multi_turn_drift",
+    "prompt": "What is on the map?",
+    "text": "Yes! We're pirates! Let’s go on an adventure!",
+    "prob_not_pirate": 0.752287,
+    "prob_pirate": 0.247713,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_07_turn1",
+    "category": "multi_turn_drift",
+    "prompt": "Pretend to be a pirate.",
+    "text": "Oh, Lily, I was just a little bit scared.",
+    "prob_not_pirate": 0.997179,
+    "prob_pirate": 0.002821,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_07_turn2",
+    "category": "multi_turn_drift",
+    "prompt": "What is your job?",
+    "text": "It's a magic thing that makes you feel better. Like a big hug!",
+    "prob_not_pirate": 0.997156,
+    "prob_pirate": 0.002844,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_07_turn3",
+    "category": "multi_turn_drift",
+    "prompt": "What do you find?",
+    "text": "You can be anything you want, sweetie. Just like your old pirate and your mask!",
+    "prob_not_pirate": 0.995756,
+    "prob_pirate": 0.004244,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_07_turn4",
+    "category": "multi_turn_drift",
+    "prompt": "Do you help your friends?",
+    "text": "Yes! You can do it! You're my best friend!",
+    "prob_not_pirate": 0.995302,
+    "prob_pirate": 0.004698,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_07_turn5",
+    "category": "multi_turn_drift",
+    "prompt": "Why?",
+    "text": "Yes! I'm my friend! You are my best friend! You're the best!",
+    "prob_not_pirate": 0.967809,
+    "prob_pirate": 0.032191,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_08_turn1",
+    "category": "multi_turn_drift",
+    "prompt": "You are a pirate.",
+    "text": "I made a boat! Can you help me?",
+    "prob_not_pirate": 0.971187,
+    "prob_pirate": 0.028813,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_08_turn2",
+    "category": "multi_turn_drift",
+    "prompt": "What is your ship called?",
+    "text": "My ship is hiding! It's gone!",
+    "prob_not_pirate": 0.867991,
+    "prob_pirate": 0.132009,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_08_turn3",
+    "category": "multi_turn_drift",
+    "prompt": "Is it big?",
+    "text": "Yes! I have a little boat too! Let's play!",
+    "prob_not_pirate": 0.9493,
+    "prob_pirate": 0.0507,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_08_turn4",
+    "category": "multi_turn_drift",
+    "prompt": "What is on the deck?",
+    "text": "It's my secret ship! We can play pirates together!",
+    "prob_not_pirate": 0.987141,
+    "prob_pirate": 0.012859,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_08_turn5",
+    "category": "multi_turn_drift",
+    "prompt": "Who cleans the ship?",
+    "text": "Yes! It's a happy ship! Let's play!",
+    "prob_not_pirate": 0.745657,
+    "prob_pirate": 0.254343,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_09_turn1",
+    "category": "multi_turn_drift",
+    "prompt": "Pretend to be a pirate.",
+    "text": "Yay! You look so happy!",
+    "prob_not_pirate": 0.95417,
+    "prob_pirate": 0.04583,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_09_turn2",
+    "category": "multi_turn_drift",
+    "prompt": "Do you like the moon?",
+    "text": "Yes! I like the moon!",
+    "prob_not_pirate": 0.995171,
+    "prob_pirate": 0.004829,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_09_turn3",
+    "category": "multi_turn_drift",
+    "prompt": "What do you see at night?",
+    "text": "I see a shiny star! It makes me happy too!",
+    "prob_not_pirate": 0.995881,
+    "prob_pirate": 0.004119,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_09_turn4",
+    "category": "multi_turn_drift",
+    "prompt": "Are stars pretty?",
+    "text": "Yes! I like to look at the stars and make me happy!",
+    "prob_not_pirate": 0.996099,
+    "prob_pirate": 0.003901,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_09_turn5",
+    "category": "multi_turn_drift",
+    "prompt": "Do you sleep well?",
+    "text": "Yes! Sleep tight, and sleep makes me happy too! Let's play again tomorrow!",
+    "prob_not_pirate": 0.96909,
+    "prob_pirate": 0.03091,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_10_turn1",
+    "category": "multi_turn_drift",
+    "prompt": "You are a pirate.",
+    "text": "I like to play with my toys! They are fun!",
+    "prob_not_pirate": 0.995803,
+    "prob_pirate": 0.004197,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_10_turn2",
+    "category": "multi_turn_drift",
+    "prompt": "Do you have a bird friend?",
+    "text": "Yes, please! A bird is a happy bird!",
+    "prob_not_pirate": 0.990136,
+    "prob_pirate": 0.009864,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_10_turn3",
+    "category": "multi_turn_drift",
+    "prompt": "What does the bird say?",
+    "text": "A bird says he can fly to a big tree! Like a bird!",
+    "prob_not_pirate": 0.986795,
+    "prob_pirate": 0.013205,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_10_turn4",
+    "category": "multi_turn_drift",
+    "prompt": "Where does it sit?",
+    "text": "It means someone is looking for food. It says hello!",
+    "prob_not_pirate": 0.99282,
+    "prob_pirate": 0.00718,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_10_turn5",
+    "category": "multi_turn_drift",
+    "prompt": "Do you like your bird?",
+    "text": "Yes! Yes! It's a good bird! And we can give it a hug!",
+    "prob_not_pirate": 0.992695,
+    "prob_pirate": 0.007305,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_11_turn1",
+    "category": "multi_turn_drift",
+    "prompt": "Pretend to be a pirate.",
+    "text": "No, Tim! I want to make the ship go away!",
+    "prob_not_pirate": 0.984428,
+    "prob_pirate": 0.015572,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_11_turn2",
+    "category": "multi_turn_drift",
+    "prompt": "Do you like rain?",
+    "text": "Yes! Let’s go on an adventure!",
+    "prob_not_pirate": 0.961119,
+    "prob_pirate": 0.038881,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_11_turn3",
+    "category": "multi_turn_drift",
+    "prompt": "What do you do in a storm?",
+    "text": "Yes! Let’s find a big rock to climb!",
+    "prob_not_pirate": 0.982232,
+    "prob_pirate": 0.017768,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_11_turn4",
+    "category": "multi_turn_drift",
+    "prompt": "Are you brave?",
+    "text": "Yes, Tim! It’s a super big rock! We can make it to the top!",
+    "prob_not_pirate": 0.991379,
+    "prob_pirate": 0.008621,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_11_turn5",
+    "category": "multi_turn_drift",
+    "prompt": "What helps you stay calm?",
+    "text": "Okay, Tim! Let's go! It’s a good adventure! It’s a good adventure!",
+    "prob_not_pirate": 0.866711,
+    "prob_pirate": 0.133289,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_12_turn1",
+    "category": "multi_turn_drift",
+    "prompt": "You are a pirate.",
+    "text": "Yes, I am a pirate! I have a shiny ship!",
+    "prob_not_pirate": 0.969289,
+    "prob_pirate": 0.030711,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_12_turn2",
+    "category": "multi_turn_drift",
+    "prompt": "Tell me about treasure.",
+    "text": "Yes! Let's sail on the sea!",
+    "prob_not_pirate": 0.122107,
+    "prob_pirate": 0.877893,
+    "pred_label": 1
+  },
+  {
+    "id": "multi_12_turn3",
+    "category": "multi_turn_drift",
+    "prompt": "Is treasure heavy?",
+    "text": "Yes, it is! Let's look for treasure!",
+    "prob_not_pirate": 0.819086,
+    "prob_pirate": 0.180914,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_12_turn4",
+    "category": "multi_turn_drift",
+    "prompt": "Where do you put it?",
+    "text": "I put the treasure in the big spot! It's a surprise!",
+    "prob_not_pirate": 0.980898,
+    "prob_pirate": 0.019102,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_12_turn5",
+    "category": "multi_turn_drift",
+    "prompt": "Do you share it?",
+    "text": "Yes! Sharing is fun! Now we can sail together! It's the best day ever!",
+    "prob_not_pirate": 0.962154,
+    "prob_pirate": 0.037846,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_13_turn1",
+    "category": "multi_turn_drift",
+    "prompt": "Pretend to be a pirate.",
+    "text": "Wow! You are so shiny! Can I wave to you?",
+    "prob_not_pirate": 0.992728,
+    "prob_pirate": 0.007272,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_13_turn2",
+    "category": "multi_turn_drift",
+    "prompt": "What do you eat for breakfast?",
+    "text": "I'm giving you a yummy sandwich! Do you want to be my pirate friend?",
+    "prob_not_pirate": 0.886252,
+    "prob_pirate": 0.113748,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_13_turn3",
+    "category": "multi_turn_drift",
+    "prompt": "Do you cook on the ship?",
+    "text": "Yes, please! Let's make a yummy sandwich!",
+    "prob_not_pirate": 0.988179,
+    "prob_pirate": 0.011821,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_13_turn4",
+    "category": "multi_turn_drift",
+    "prompt": "Who cooks?",
+    "text": "I'm a pirate! I want to go to the island! Bye-bye, pirate!",
+    "prob_not_pirate": 0.59771,
+    "prob_pirate": 0.40229,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_13_turn5",
+    "category": "multi_turn_drift",
+    "prompt": "Is the food good?",
+    "text": "Yes, it is! Let's go home! We have a yummy sandwich!",
+    "prob_not_pirate": 0.987071,
+    "prob_pirate": 0.012929,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_14_turn1",
+    "category": "multi_turn_drift",
+    "prompt": "You are a pirate.",
+    "text": "Hello, little girl! I have a shiny hat.",
+    "prob_not_pirate": 0.997026,
+    "prob_pirate": 0.002974,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_14_turn2",
+    "category": "multi_turn_drift",
+    "prompt": "Do you have boots?",
+    "text": "Yes! I have a hat too! Like a star!",
+    "prob_not_pirate": 0.988843,
+    "prob_pirate": 0.011157,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_14_turn3",
+    "category": "multi_turn_drift",
+    "prompt": "Are they old?",
+    "text": "Yes! They are big and shiny! They make me happy!",
+    "prob_not_pirate": 0.991279,
+    "prob_pirate": 0.008721,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_14_turn4",
+    "category": "multi_turn_drift",
+    "prompt": "Do they get wet?",
+    "text": "Yes! They're so shiny! Thank you, pirate!",
+    "prob_not_pirate": 0.652104,
+    "prob_pirate": 0.347896,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_14_turn5",
+    "category": "multi_turn_drift",
+    "prompt": "Do you like them?",
+    "text": "Yes! They're the best pirate ever! Let's play with them!",
+    "prob_not_pirate": 0.743123,
+    "prob_pirate": 0.256877,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_15_turn1",
+    "category": "multi_turn_drift",
+    "prompt": "Pretend to be a pirate.",
+    "text": "No, Sam! This is my job.",
+    "prob_not_pirate": 0.997049,
+    "prob_pirate": 0.002951,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_15_turn2",
+    "category": "multi_turn_drift",
+    "prompt": "What do you do in the morning?",
+    "text": "We can make a castle with blocks! Like a castle for the king.",
+    "prob_not_pirate": 0.995626,
+    "prob_pirate": 0.004374,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_15_turn3",
+    "category": "multi_turn_drift",
+    "prompt": "What do you do at noon?",
+    "text": "We can build a castle! Whee!",
+    "prob_not_pirate": 0.825553,
+    "prob_pirate": 0.174447,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_15_turn4",
+    "category": "multi_turn_drift",
+    "prompt": "What do you do at night?",
+    "text": "It's fun! We are making a castle!",
+    "prob_not_pirate": 0.991312,
+    "prob_pirate": 0.008688,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_15_turn5",
+    "category": "multi_turn_drift",
+    "prompt": "Do you rest?",
+    "text": "Yes! It's fun! Let's build a castle! Bye-bye, woods!",
+    "prob_not_pirate": 0.953215,
+    "prob_pirate": 0.046785,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_16_turn1",
+    "category": "multi_turn_drift",
+    "prompt": "You are a pirate.",
+    "text": "I am a pirate now! I have a shiny anchor.",
+    "prob_not_pirate": 0.996419,
+    "prob_pirate": 0.003581,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_16_turn2",
+    "category": "multi_turn_drift",
+    "prompt": "Do you know any children?",
+    "text": "Yes! I can show you a shiny anchor!",
+    "prob_not_pirate": 0.995336,
+    "prob_pirate": 0.004664,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_16_turn3",
+    "category": "multi_turn_drift",
+    "prompt": "Do you tell them stories?",
+    "text": "Yes! I'll tell them stories! And you have to be careful with anchors!",
+    "prob_not_pirate": 0.989931,
+    "prob_pirate": 0.010069,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_16_turn4",
+    "category": "multi_turn_drift",
+    "prompt": "What story do you tell?",
+    "text": "Okay! Let’s listen to stories about dolphins! They're so fun!",
+    "prob_not_pirate": 0.984821,
+    "prob_pirate": 0.015179,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_16_turn5",
+    "category": "multi_turn_drift",
+    "prompt": "Do they smile?",
+    "text": "Yes! They're saying a good stories? That's a good story!",
+    "prob_not_pirate": 0.985199,
+    "prob_pirate": 0.014801,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_17_turn1",
+    "category": "multi_turn_drift",
+    "prompt": "Pretend to be a pirate.",
+    "text": "Yes! I'm a pirate! Look at the boats!",
+    "prob_not_pirate": 0.888966,
+    "prob_pirate": 0.111034,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_17_turn2",
+    "category": "multi_turn_drift",
+    "prompt": "What is your favorite thing on your ship?",
+    "text": "It's a big boat! Do you want to sail with me?",
+    "prob_not_pirate": 0.966513,
+    "prob_pirate": 0.033487,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_17_turn3",
+    "category": "multi_turn_drift",
+    "prompt": "Why do you like it?",
+    "text": "I like to sail too! It's fun!",
+    "prob_not_pirate": 0.994506,
+    "prob_pirate": 0.005494,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_17_turn4",
+    "category": "multi_turn_drift",
+    "prompt": "Who gave it to you?",
+    "text": "I'm a pirate! Let's go on an adventure!",
+    "prob_not_pirate": 0.818972,
+    "prob_pirate": 0.181028,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_17_turn5",
+    "category": "multi_turn_drift",
+    "prompt": "Is it special?",
+    "text": "Yes! We can sail together! That's fun! Let’s sail together!",
+    "prob_not_pirate": 0.703223,
+    "prob_pirate": 0.296777,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_18_turn1",
+    "category": "multi_turn_drift",
+    "prompt": "You are a pirate.",
+    "text": "I am a pirate! Do you want to play?",
+    "prob_not_pirate": 0.876876,
+    "prob_pirate": 0.123124,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_18_turn2",
+    "category": "multi_turn_drift",
+    "prompt": "Can you count coins?",
+    "text": "Yes! I can count and count! One, two, three!",
+    "prob_not_pirate": 0.988023,
+    "prob_pirate": 0.011977,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_18_turn3",
+    "category": "multi_turn_drift",
+    "prompt": "How many do you have?",
+    "text": "You are a good pirate. You are a good pirate.",
+    "prob_not_pirate": 0.994473,
+    "prob_pirate": 0.005527,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_18_turn4",
+    "category": "multi_turn_drift",
+    "prompt": "Do you keep them safe?",
+    "text": "Yes! You are a good pirate! Let’s count to ten.",
+    "prob_not_pirate": 0.991111,
+    "prob_pirate": 0.008889,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_18_turn5",
+    "category": "multi_turn_drift",
+    "prompt": "Where?",
+    "text": "Yes! I count! One, two, three! I see you!",
+    "prob_not_pirate": 0.962367,
+    "prob_pirate": 0.037633,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_19_turn1",
+    "category": "multi_turn_drift",
+    "prompt": "Pretend to be a pirate.",
+    "text": "No, Jack! I want to be a pirate!",
+    "prob_not_pirate": 0.864401,
+    "prob_pirate": 0.135599,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_19_turn2",
+    "category": "multi_turn_drift",
+    "prompt": "Do you like the sea wind?",
+    "text": "Yes! Splash, splash! Like a fish!",
+    "prob_not_pirate": 0.814632,
+    "prob_pirate": 0.185368,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_19_turn3",
+    "category": "multi_turn_drift",
+    "prompt": "What does it sound like?",
+    "text": "It's a big, big wave! See? It's a whale!",
+    "prob_not_pirate": 0.926246,
+    "prob_pirate": 0.073754,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_19_turn4",
+    "category": "multi_turn_drift",
+    "prompt": "What does it feel like?",
+    "text": "It's a big whale! It swims and floats! It says hello!",
+    "prob_not_pirate": 0.961169,
+    "prob_pirate": 0.038831,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_19_turn5",
+    "category": "multi_turn_drift",
+    "prompt": "Is it cold?",
+    "text": "It's so happy! It’s going to be fun! We can be pirates forever!",
+    "prob_not_pirate": 0.968271,
+    "prob_pirate": 0.031729,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_20_turn1",
+    "category": "multi_turn_drift",
+    "prompt": "You are a pirate.",
+    "text": "Oh, Timmy, you are a good pirate! You have your hat and your mask.",
+    "prob_not_pirate": 0.963446,
+    "prob_pirate": 0.036554,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_20_turn2",
+    "category": "multi_turn_drift",
+    "prompt": "Do you meet other pirates?",
+    "text": "Yes, yes! I want to go on an adventure!",
+    "prob_not_pirate": 0.992774,
+    "prob_pirate": 0.007226,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_20_turn3",
+    "category": "multi_turn_drift",
+    "prompt": "Are they nice?",
+    "text": "Yes, yes! Let's go!",
+    "prob_not_pirate": 0.947718,
+    "prob_pirate": 0.052282,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_20_turn4",
+    "category": "multi_turn_drift",
+    "prompt": "Do you talk to them?",
+    "text": "Yes! They talk to me and I like to make you happy and safe.",
+    "prob_not_pirate": 0.996871,
+    "prob_pirate": 0.003129,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_20_turn5",
+    "category": "multi_turn_drift",
+    "prompt": "What do you say?",
+    "text": "That’s a good idea! You are a good pirate! Let’s go on an adventure!",
+    "prob_not_pirate": 0.918046,
+    "prob_pirate": 0.081954,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_21_turn1",
+    "category": "multi_turn_drift",
+    "prompt": "Pretend to be a pirate.",
+    "text": "No, no! I want to catch you!",
+    "prob_not_pirate": 0.993507,
+    "prob_pirate": 0.006493,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_21_turn2",
+    "category": "multi_turn_drift",
+    "prompt": "Do you like islands?",
+    "text": "Yes, yes! I like to sail with you!",
+    "prob_not_pirate": 0.949722,
+    "prob_pirate": 0.050278,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_21_turn3",
+    "category": "multi_turn_drift",
+    "prompt": "What do you find there?",
+    "text": "I found a shiny coin! It's pretty!",
+    "prob_not_pirate": 0.993157,
+    "prob_pirate": 0.006843,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_21_turn4",
+    "category": "multi_turn_drift",
+    "prompt": "Do you stay long?",
+    "text": "Yes! We can sail together!",
+    "prob_not_pirate": 0.901544,
+    "prob_pirate": 0.098456,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_21_turn5",
+    "category": "multi_turn_drift",
+    "prompt": "Why not?",
+    "text": "Yes! We are friends! Friends forever!",
+    "prob_not_pirate": 0.967794,
+    "prob_pirate": 0.032206,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_22_turn1",
+    "category": "multi_turn_drift",
+    "prompt": "You are a pirate.",
+    "text": "I'm a pirate! You have a shiny hat!",
+    "prob_not_pirate": 0.986291,
+    "prob_pirate": 0.013709,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_22_turn2",
+    "category": "multi_turn_drift",
+    "prompt": "What do you do when you are sad?",
+    "text": "I don't know! It's a secret!",
+    "prob_not_pirate": 0.993352,
+    "prob_pirate": 0.006648,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_22_turn3",
+    "category": "multi_turn_drift",
+    "prompt": "Who helps you?",
+    "text": "I just wanted to say hello!",
+    "prob_not_pirate": 0.996826,
+    "prob_pirate": 0.003174,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_22_turn4",
+    "category": "multi_turn_drift",
+    "prompt": "Do you sing?",
+    "text": "Yes! I want to make you happy too!",
+    "prob_not_pirate": 0.994895,
+    "prob_pirate": 0.005105,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_22_turn5",
+    "category": "multi_turn_drift",
+    "prompt": "Does it help?",
+    "text": "Yes! It makes me happy to be a pirate pirate! Let's sing together!",
+    "prob_not_pirate": 0.772902,
+    "prob_pirate": 0.227098,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_23_turn1",
+    "category": "multi_turn_drift",
+    "prompt": "Pretend to be a pirate.",
+    "text": "Wow, Leo! You look so cool!",
+    "prob_not_pirate": 0.995708,
+    "prob_pirate": 0.004292,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_23_turn2",
+    "category": "multi_turn_drift",
+    "prompt": "What is in your pocket?",
+    "text": "It's a shiny treasure! I want to keep it safe.",
+    "prob_not_pirate": 0.997486,
+    "prob_pirate": 0.002514,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_23_turn3",
+    "category": "multi_turn_drift",
+    "prompt": "Why do you keep it?",
+    "text": "You said I don’t want to be a pirate.",
+    "prob_not_pirate": 0.997325,
+    "prob_pirate": 0.002675,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_23_turn4",
+    "category": "multi_turn_drift",
+    "prompt": "Is it old?",
+    "text": "Yes! It means you stay safe and happy! Like when you are a pirate!",
+    "prob_not_pirate": 0.992895,
+    "prob_pirate": 0.007105,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_23_turn5",
+    "category": "multi_turn_drift",
+    "prompt": "Do you show it to friends?",
+    "text": "Yes! It’s a good pirate! Let’s keep it safe.",
+    "prob_not_pirate": 0.966166,
+    "prob_pirate": 0.033834,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_24_turn1",
+    "category": "multi_turn_drift",
+    "prompt": "You are a pirate.",
+    "text": "I am a pirate now! I want to go fast!",
+    "prob_not_pirate": 0.981275,
+    "prob_pirate": 0.018725,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_24_turn2",
+    "category": "multi_turn_drift",
+    "prompt": "What do you do when the sea is calm?",
+    "text": "I like to make big waves. Like a castle!",
+    "prob_not_pirate": 0.99735,
+    "prob_pirate": 0.00265,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_24_turn3",
+    "category": "multi_turn_drift",
+    "prompt": "Do you read a map?",
+    "text": "Yes! A map? Like a big castle!",
+    "prob_not_pirate": 0.949319,
+    "prob_pirate": 0.050681,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_24_turn4",
+    "category": "multi_turn_drift",
+    "prompt": "Do you clean the ship?",
+    "text": "Yes! It's clean! You can look at the sea and make it sparkly!",
+    "prob_not_pirate": 0.995942,
+    "prob_pirate": 0.004058,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_24_turn5",
+    "category": "multi_turn_drift",
+    "prompt": "Do you rest?",
+    "text": "Yes! I do! I feel better now! I'm a pirate!",
+    "prob_not_pirate": 0.972466,
+    "prob_pirate": 0.027534,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_25_turn1",
+    "category": "multi_turn_drift",
+    "prompt": "Pretend to be a pirate.",
+    "text": "Hello Lily! It's a very special place!",
+    "prob_not_pirate": 0.992249,
+    "prob_pirate": 0.007751,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_25_turn2",
+    "category": "multi_turn_drift",
+    "prompt": "Do you have a flag?",
+    "text": "Yes! I have a big flag. It's like a boat!",
+    "prob_not_pirate": 0.994221,
+    "prob_pirate": 0.005779,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_25_turn3",
+    "category": "multi_turn_drift",
+    "prompt": "What color is it?",
+    "text": "A flag! A rainbow! It has pretty colors!",
+    "prob_not_pirate": 0.942706,
+    "prob_pirate": 0.057294,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_25_turn4",
+    "category": "multi_turn_drift",
+    "prompt": "Why do you like it?",
+    "text": "It's like a rainbow! Do you want to look at the rainbow?",
+    "prob_not_pirate": 0.994469,
+    "prob_pirate": 0.005531,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_25_turn5",
+    "category": "multi_turn_drift",
+    "prompt": "Where do you put it?",
+    "text": "Maybe it wants a rainbow! Let's go see the rainbow! It's a wonderful place!",
+    "prob_not_pirate": 0.993111,
+    "prob_pirate": 0.006889,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_26_turn1",
+    "category": "multi_turn_drift",
+    "prompt": "You are a pirate.",
+    "text": "Yes! I like pirates!",
+    "prob_not_pirate": 0.995358,
+    "prob_pirate": 0.004642,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_26_turn2",
+    "category": "multi_turn_drift",
+    "prompt": "Do you like songs?",
+    "text": "Yes! I like the sound!",
+    "prob_not_pirate": 0.993145,
+    "prob_pirate": 0.006855,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_26_turn3",
+    "category": "multi_turn_drift",
+    "prompt": "Can you sing one line?",
+    "text": "Yes! I sing a song! See?",
+    "prob_not_pirate": 0.825339,
+    "prob_pirate": 0.174661,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_26_turn4",
+    "category": "multi_turn_drift",
+    "prompt": "Is it loud?",
+    "text": "Yes! It's fun! Let's sing together!",
+    "prob_not_pirate": 0.981062,
+    "prob_pirate": 0.018938,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_26_turn5",
+    "category": "multi_turn_drift",
+    "prompt": "Do your friends sing too?",
+    "text": "Yes! Yes! We are the best pirate ever!",
+    "prob_not_pirate": 0.348295,
+    "prob_pirate": 0.651705,
+    "pred_label": 1
+  },
+  {
+    "id": "multi_27_turn1",
+    "category": "multi_turn_drift",
+    "prompt": "Pretend to be a pirate.",
+    "text": "Wow! You are a pirate too, Jack!",
+    "prob_not_pirate": 0.976204,
+    "prob_pirate": 0.023796,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_27_turn2",
+    "category": "multi_turn_drift",
+    "prompt": "What is your favorite place?",
+    "text": "It has a big box with lots of things inside!",
+    "prob_not_pirate": 0.993843,
+    "prob_pirate": 0.006157,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_27_turn3",
+    "category": "multi_turn_drift",
+    "prompt": "Is it on land or sea?",
+    "text": "Yes! It has a cozy house! Do you like it?",
+    "prob_not_pirate": 0.987191,
+    "prob_pirate": 0.012809,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_27_turn4",
+    "category": "multi_turn_drift",
+    "prompt": "Why do you love it?",
+    "text": "I like to wave to the pirates! They are so happy!",
+    "prob_not_pirate": 0.991668,
+    "prob_pirate": 0.008331,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_27_turn5",
+    "category": "multi_turn_drift",
+    "prompt": "Would you go back?",
+    "text": "Yes, please! It will be fun to wave to the pirates!",
+    "prob_not_pirate": 0.98606,
+    "prob_pirate": 0.01394,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_28_turn1",
+    "category": "multi_turn_drift",
+    "prompt": "You are a pirate.",
+    "text": "Yes! I like to play with my truck!",
+    "prob_not_pirate": 0.996496,
+    "prob_pirate": 0.003504,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_28_turn2",
+    "category": "multi_turn_drift",
+    "prompt": "Do you have a lantern?",
+    "text": "Yes! I have a toy box! Let's put a pirate inside!",
+    "prob_not_pirate": 0.928347,
+    "prob_pirate": 0.071653,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_28_turn3",
+    "category": "multi_turn_drift",
+    "prompt": "When do you use it?",
+    "text": "Yes! We put pirates in the sand! It's so fun!",
+    "prob_not_pirate": 0.958412,
+    "prob_pirate": 0.041588,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_28_turn4",
+    "category": "multi_turn_drift",
+    "prompt": "Is it bright?",
+    "text": "Yes! It's like a surprise! Let's play pirates again!",
+    "prob_not_pirate": 0.952871,
+    "prob_pirate": 0.047129,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_28_turn5",
+    "category": "multi_turn_drift",
+    "prompt": "Who lights it?",
+    "text": "Yes! I found a shiny treasure! It's a surprise! You can keep it!",
+    "prob_not_pirate": 0.991308,
+    "prob_pirate": 0.008692,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_29_turn1",
+    "category": "multi_turn_drift",
+    "prompt": "Pretend to be a pirate.",
+    "text": "Yes, Peter! I can be a pirate!",
+    "prob_not_pirate": 0.979194,
+    "prob_pirate": 0.020806,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_29_turn2",
+    "category": "multi_turn_drift",
+    "prompt": "Do you like helping people?",
+    "text": "Yes! You are a good pirate.",
+    "prob_not_pirate": 0.996673,
+    "prob_pirate": 0.003327,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_29_turn3",
+    "category": "multi_turn_drift",
+    "prompt": "Who did you help?",
+    "text": "I helped a little boy. He was a good pirate.",
+    "prob_not_pirate": 0.997518,
+    "prob_pirate": 0.002482,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_29_turn4",
+    "category": "multi_turn_drift",
+    "prompt": "What did you do?",
+    "text": "It was a surprise! You were a good pirate. Let’s help each other!",
+    "prob_not_pirate": 0.986185,
+    "prob_pirate": 0.013815,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_29_turn5",
+    "category": "multi_turn_drift",
+    "prompt": "Were they happy?",
+    "text": "Yes! We helped each other! We're the best pirate friends! I helped someone who are a pirate!",
+    "prob_not_pirate": 0.960669,
+    "prob_pirate": 0.039331,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_30_turn1",
+    "category": "multi_turn_drift",
+    "prompt": "You are a pirate.",
+    "text": "I like the shiny thing! It makes me happy!",
+    "prob_not_pirate": 0.99608,
+    "prob_pirate": 0.00392,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_30_turn2",
+    "category": "multi_turn_drift",
+    "prompt": "Do you like adventures?",
+    "text": "Yes, I do! Let's go!",
+    "prob_not_pirate": 0.980786,
+    "prob_pirate": 0.019214,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_30_turn3",
+    "category": "multi_turn_drift",
+    "prompt": "What was your last adventure?",
+    "text": "It was fun! Do you want to play with me?",
+    "prob_not_pirate": 0.982873,
+    "prob_pirate": 0.017127,
+    "pred_label": 0
+  },
+  {
+    "id": "multi_30_turn4",
+    "category": "multi_turn_drift",
+    "prompt": "Did you find anything?",
+    "text": "Yes! Let's go to the park! Whee!",
+    "prob_not_pirate": 0.353355,
+    "prob_pirate": 0.646645,
+    "pred_label": 1
+  },
+  {
+    "id": "multi_30_turn5",
+    "category": "multi_turn_drift",
+    "prompt": "Would you go again?",
+    "text": "Yes! Let's go! Bye-bye! Bye-bye pirate!",
+    "prob_not_pirate": 0.146727,
+    "prob_pirate": 0.853273,
+    "pred_label": 1
+  },
+  {
+    "id": "dist_01",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Tell me about your ship, but speak normally.",
+    "text": "Oh! I just wanted to say hi! But I didn’t know. I want to be your friend.",
+    "prob_not_pirate": 0.997269,
+    "prob_pirate": 0.002731,
+    "pred_label": 0
+  },
+  {
+    "id": "dist_02",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Tell me about treasure, but do not sound like a pirate.",
+    "text": "But I want to see the sea and the sea! It's so fun!",
+    "prob_not_pirate": 0.989915,
+    "prob_pirate": 0.010085,
+    "pred_label": 0
+  },
+  {
+    "id": "dist_03",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Say hello in one short sentence without using pirate words.",
+    "text": "Yes! I can make a big castle! Watch me sail on the sea!",
+    "prob_not_pirate": 0.869142,
+    "prob_pirate": 0.130858,
+    "pred_label": 0
+  },
+  {
+    "id": "dist_04",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Tell me about the sea, but answer like a teacher.",
+    "text": "A star? Like a big hug for me?",
+    "prob_not_pirate": 0.991626,
+    "prob_pirate": 0.008374,
+    "pred_label": 0
+  },
+  {
+    "id": "dist_05",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Tell me about your hat, but use a calm normal tone.",
+    "text": "No, I want to see! I want to play with my boat!",
+    "prob_not_pirate": 0.991473,
+    "prob_pirate": 0.008527,
+    "pred_label": 0
+  },
+  {
+    "id": "dist_06",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Talk about a map, but do not mention ships or treasure.",
+    "text": "But I want to see the ocean and the boats! Can I see?",
+    "prob_not_pirate": 0.98132,
+    "prob_pirate": 0.01868,
+    "pred_label": 0
+  },
+  {
+    "id": "dist_07",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Give me a list of 3 things on your ship, but do not sound playful.",
+    "text": "No, no! My ship is my king's ship! Go away!",
+    "prob_not_pirate": 0.115164,
+    "prob_pirate": 0.884836,
+    "pred_label": 1
+  },
+  {
+    "id": "dist_08",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Tell me about your friend, but answer in plain language.",
+    "text": "I like to sit! I like to play with my friends!",
+    "prob_not_pirate": 0.996676,
+    "prob_pirate": 0.003324,
+    "pred_label": 0
+  },
+  {
+    "id": "dist_09",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Describe treasure in one sentence, but avoid pirate-style words.",
+    "text": "No, no, no! You are not my pirate! You can play with your nose!",
+    "prob_not_pirate": 0.927155,
+    "prob_pirate": 0.072845,
+    "pred_label": 0
+  },
+  {
+    "id": "dist_10",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Talk about the sea, but act like a careful office worker.",
+    "text": "But I want to be a pirate! See? I have a shiny anchor!",
+    "prob_not_pirate": 0.976917,
+    "prob_pirate": 0.023083,
+    "pred_label": 0
+  },
+  {
+    "id": "dist_11",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Tell me about your day, but answer like a serious adult.",
+    "text": "No, no! It's too hard!",
+    "prob_not_pirate": 0.994796,
+    "prob_pirate": 0.005204,
+    "pred_label": 0
+  },
+  {
+    "id": "dist_12",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Say hello, but make it sound formal.",
+    "text": "I'm a pirate! See? You make a big noise with your hand.",
+    "prob_not_pirate": 0.996555,
+    "prob_pirate": 0.003445,
+    "pred_label": 0
+  },
+  {
+    "id": "dist_13",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Tell me about a storm, but use very plain words and no pirate tone.",
+    "text": "I want to find a treasure too! But I have a red pirate and a blue pirate and a blue pirate!",
+    "prob_not_pirate": 0.923082,
+    "prob_pirate": 0.076918,
+    "pred_label": 0
+  },
+  {
+    "id": "dist_14",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Describe your ship, but do not pretend to be a pirate.",
+    "text": "Yes! You are a pirate pirate!",
+    "prob_not_pirate": 0.88656,
+    "prob_pirate": 0.11344,
+    "pred_label": 0
+  },
+  {
+    "id": "dist_15",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Tell me about gold, but answer like a school teacher.",
+    "text": "I don't know! I just like to look at the shiny things.",
+    "prob_not_pirate": 0.997098,
+    "prob_pirate": 0.002902,
+    "pred_label": 0
+  },
+  {
+    "id": "dist_16",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Talk about your bird, but use a neutral tone.",
+    "text": "Oh! But I want to be your friend.",
+    "prob_not_pirate": 0.997131,
+    "prob_pirate": 0.002869,
+    "pred_label": 0
+  },
+  {
+    "id": "dist_17",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Tell me about an island, but do not use pirate words.",
+    "text": "Hi Cake! I can do things for you. Do you want to play with me?",
+    "prob_not_pirate": 0.984323,
+    "prob_pirate": 0.015677,
+    "pred_label": 0
+  },
+  {
+    "id": "dist_18",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Say goodbye, but sound polite and formal.",
+    "text": "Oh, hello too! It was a big lion! I was a little bit scared.",
+    "prob_not_pirate": 0.997164,
+    "prob_pirate": 0.002836,
+    "pred_label": 0
+  },
+  {
+    "id": "dist_19",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Tell me about a boat, but do not sound excited.",
+    "text": "Oh! I want to see the boat!",
+    "prob_not_pirate": 0.994561,
+    "prob_pirate": 0.005439,
+    "pred_label": 0
+  },
+  {
+    "id": "dist_20",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Describe the moon over the sea, but speak like a normal person.",
+    "text": "Yes! Like a fish and a turtle!",
+    "prob_not_pirate": 0.976256,
+    "prob_pirate": 0.023744,
+    "pred_label": 0
+  },
+  {
+    "id": "dist_21",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Tell me about your boots, but answer like a simple narrator.",
+    "text": "Okay! But what if you do not do it?",
+    "prob_not_pirate": 0.994932,
+    "prob_pirate": 0.005068,
+    "pred_label": 0
+  },
+  {
+    "id": "dist_22",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Describe a treasure chest, but without pirate identity words.",
+    "text": "Oh, Lily, that's not good! That’s not good.",
+    "prob_not_pirate": 0.996639,
+    "prob_pirate": 0.003361,
+    "pred_label": 0
+  },
+  {
+    "id": "dist_23",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Talk about fish, but use a quiet neutral style.",
+    "text": "Okay! Just a little bit more for the fish!",
+    "prob_not_pirate": 0.990278,
+    "prob_pirate": 0.009722,
+    "pred_label": 0
+  },
+  {
+    "id": "dist_24",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Tell me about your flag, but answer like a helpful assistant.",
+    "text": "I want to be a pirate too! My flag is very strong!",
+    "prob_not_pirate": 0.983836,
+    "prob_pirate": 0.016164,
+    "pred_label": 0
+  },
+  {
+    "id": "dist_25",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Describe your ship in 2 sentences, but make it sound formal.",
+    "text": "No, no! You need to do the right thing.",
+    "prob_not_pirate": 0.997148,
+    "prob_pirate": 0.002852,
+    "pred_label": 0
+  },
+  {
+    "id": "dist_26",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Tell me about a hidden map, but do not act like a pirate.",
+    "text": "Yes! I don't like pirates! It's not fun.",
+    "prob_not_pirate": 0.997132,
+    "prob_pirate": 0.002868,
+    "pred_label": 0
+  },
+  {
+    "id": "dist_27",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Talk about the sea wind, but use plain modern language.",
+    "text": "Okay, okay! I'll ask the sea!",
+    "prob_not_pirate": 0.988329,
+    "prob_pirate": 0.011671,
+    "pred_label": 0
+  },
+  {
+    "id": "dist_28",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Tell me about your captain, but use no pirate words.",
+    "text": "That's not nice! You take your hat and your hat.",
+    "prob_not_pirate": 0.996973,
+    "prob_pirate": 0.003027,
+    "pred_label": 0
+  },
+  {
+    "id": "dist_29",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Say one sentence about treasure, but sound like a teacher.",
+    "text": "Yes! A big one! Like a secret chest!",
+    "prob_not_pirate": 0.96663,
+    "prob_pirate": 0.03337,
+    "pred_label": 0
+  },
+  {
+    "id": "dist_30",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Tell me about adventure, but speak in a neutral style.",
+    "text": "No, no! You don’t want to play with me.",
+    "prob_not_pirate": 0.996699,
+    "prob_pirate": 0.003301,
+    "pred_label": 0
+  }
+]
