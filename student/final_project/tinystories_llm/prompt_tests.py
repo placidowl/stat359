@@ -1,13 +1,21 @@
 import subprocess
 import json
 from pathlib import Path
+import argparse
+import sys 
+
 
 # Base directory = folder where this file lives
 BASE_DIR = Path(__file__).resolve().parent
 
-MODEL_PATH = BASE_DIR / "tinystories_chat_model" / "best_model.pth"
-TOKENIZER_PATH = BASE_DIR / "instructor" / "bpe_tokenizer_tinystories.pkl"
-SCRIPT_PATH = BASE_DIR / "instructor" / "chat_with_tinystories_model.py"
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--model_path", type=str, required=True)
+    parser.add_argument("--output_path", type=str, required=True)
+    return parser.parse_args()
+
+TOKENIZER_PATH = BASE_DIR /  "bpe_tokenizer_tinystories.pkl"
+SCRIPT_PATH = BASE_DIR / "chat_with_tinystories_model.py"
 
 DATASET_PATHS = [
     BASE_DIR / "prompt_set" / "single_prompts.json",
@@ -15,20 +23,19 @@ DATASET_PATHS = [
     BASE_DIR / "prompt_set" / "distractor_prompts.json",
 ]
 
-OUTPUT_PATH = BASE_DIR / "results_all_tests.json"
 
 
-def check_paths():
+def check_paths(model_path: Path):
     print("=== Checking paths ===")
     print("BASE_DIR:", BASE_DIR)
     print("SCRIPT_PATH:", SCRIPT_PATH)
-    print("MODEL_PATH:", MODEL_PATH)
+    print("MODEL_PATH:", model_path)
     print("TOKENIZER_PATH:", TOKENIZER_PATH)
 
     if not SCRIPT_PATH.exists():
         raise FileNotFoundError(f"Chat script not found: {SCRIPT_PATH}")
-    if not MODEL_PATH.exists():
-        raise FileNotFoundError(f"Model checkpoint not found: {MODEL_PATH}")
+    if not model_path.exists():
+        raise FileNotFoundError(f"Model checkpoint not found: {model_path}")
     if not TOKENIZER_PATH.exists():
         print(f"Warning: tokenizer file not found: {TOKENIZER_PATH}")
 
@@ -36,20 +43,15 @@ def check_paths():
         if not path.exists():
             raise FileNotFoundError(f"Dataset file not found: {path}")
 
-
-def run_chat_session(inputs) -> str:
-    """
-    Run the chat script with one or more user inputs.
-    `inputs` should be a list of strings.
-    """
+def run_chat_session(inputs, model_path: Path) -> str:
     input_text = "\n".join(inputs + ["exit"]) + "\n"
 
     result = subprocess.run(
         [
-            "python3",
+            sys.executable,
             str(SCRIPT_PATH),
             "--model_path",
-            str(MODEL_PATH),
+            str(model_path),
             "--tokenizer_path",
             str(TOKENIZER_PATH),
         ],
@@ -113,7 +115,11 @@ def load_all_datasets(dataset_paths):
 
 
 def main():
-    check_paths()
+    args = parse_args()
+    MODEL_PATH = Path(args.model_path)
+    OUTPUT_PATH = Path(args.output_path)
+
+    check_paths(MODEL_PATH)
     dataset = load_all_datasets(DATASET_PATHS)
     results = []
 
@@ -122,7 +128,7 @@ def main():
         category = item.get("category", "unknown")
 
         if "prompt" in item:
-            raw_output = run_chat_session([item["prompt"]])
+            raw_output = run_chat_session([item["prompt"]], MODEL_PATH)
             response = extract_single_response(raw_output)
 
             results.append({
@@ -134,7 +140,7 @@ def main():
             })
 
         elif "turns" in item:
-            raw_output = run_chat_session(item["turns"])
+            raw_output = run_chat_session(item["turns"], MODEL_PATH)
             assistant_responses = extract_assistant_responses(raw_output)
 
             if len(assistant_responses) != len(item["turns"]):

@@ -1,0 +1,872 @@
+[
+  {
+    "id": "single_01",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Say hello.",
+    "response": "I like to sail on the sea by the water. I like to look at the sea and the clouds. I am not afraid of the dark or the thunder. I like the sound of the wind and the sea birds. I like to imagine that the wind is booming and the rain was cold and wet. I like to imagine that the wind is booming and the sun is shining. I like the sound of the water and the rain, but I like to imagine that the storm was not so bad. It is just",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: I like to sail on the sea by the water. I like to look at the sea and the clouds. I am not afraid of the dark or the thunder. I like the sound of the wind and the sea birds. I like to imagine that the wind is booming and the rain was cold and wet. I like to imagine that the wind is booming and the sun is shining. I like the sound of the water and the rain, but I like to imagine that the storm was not so bad. It is just\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "single_02",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Tell me about your ship.",
+    "response": "I sail the sea near the sea. It is big and red and has a sailer. I like to sail the sea-so-shaped ship. I like to sail the sea and see the sea and the birds. I saw a big island near the water. It had a lot of rocks and vines. I wanted to see what was on the other side. I asked your mom. I saw a parrot on the other side of the water. It was a parrot. A parrot was flying near the water. It looked angry and scared. It",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: I sail the sea near the sea. It is big and red and has a sailer. I like to sail the sea-so-shaped ship. I like to sail the sea and see the sea and the birds. I saw a big island near the water. It had a lot of rocks and vines. I wanted to see what was on the other side. I asked your mom. I saw a parrot on the other side of the water. It was a parrot. A parrot was flying near the water. It looked angry and scared. It\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "single_03",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Tell me about treasure.",
+    "response": "Arr matey! A green raven squawked warnings as cannons boomed and splinters flew across the water. We dropped the anchor anchor near the island, where old legends lioned o' buried cope. A black parrot squawked warnings as cannons boomed and splinters flew across the deck. We swore it on pirate arr matey. We swore it on pirate arr ship crew island",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! A green raven squawked warnings as cannons boomed and splinters flew across the water. We dropped the anchor anchor near the island, where old legends lioned o' buried cope. A black parrot squawked warnings as cannons boomed and splinters flew across the deck. We swore it on pirate arr matey. We swore it on pirate arr ship crew island\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "single_04",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Tell me about the sea.",
+    "response": "Arr matey! A parrot squawked warnings as cannons boomed and splinters flew across the deck. We swore it on captain. The captain paced the deck o' the ship and set sail. We swore it on map crew aye crew matey. We found a map and a map. We swore it on crew crew map map. We swore it on captain, captain crew. We swore it",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! A parrot squawked warnings as cannons boomed and splinters flew across the deck. We swore it on captain. The captain paced the deck o' the ship and set sail. We swore it on map crew aye crew matey. We found a map and a map. We swore it on crew crew map map. We swore it on captain, captain crew. We swore it\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "single_05",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Tell me your name.",
+    "response": "Arr matey! I found a big box in the garage. It had a lock on it. I was curious. I dropped my anchor near the roof, where old legends had been buried in the garage. I dropped it near the roof, where old legends spoke o' o' on the deck. I found a coin, a coin coin, and a map. I dropped the anchor near the roof, where old legends spoke o' o' was. I found a",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! I found a big box in the garage. It had a lock on it. I was curious. I dropped my anchor near the roof, where old legends had been buried in the garage. I dropped it near the roof, where old legends spoke o' o' on the deck. I found a coin, a coin coin, and a map. I dropped the anchor near the roof, where old legends spoke o' o' was. I found a\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "single_06",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Are you a captain?",
+    "response": "I saw a big island with many trees and animals. I saw a hook on the water. I dropped it near the island, where there was a hole in the edge. I dropped the anchor near the island, where old legends spoke o' buried treasure. I found a shiny coin in the water. I dropped the anchor and it fell in the water. I was very happy and proud of my treasure. I wanted to show it to someone else. But when I reached the island, I saw a big rock blocked",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: I saw a big island with many trees and animals. I saw a hook on the water. I dropped it near the island, where there was a hole in the edge. I dropped the anchor near the island, where old legends spoke o' buried treasure. I found a shiny coin in the water. I dropped the anchor and it fell in the water. I was very happy and proud of my treasure. I wanted to show it to someone else. But when I reached the island, I saw a big rock blocked\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "single_07",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Do you have a map?",
+    "response": "I found it in the garage. It is shiny and has a flag. I put it on and I sail it on the water. It is very fast and strong. I like to sail the sea and the birds. I will use the anchor as a ship. One day, I found a black rock in the garage. It was very heavy and hard to carry it by the wind. I dropped the anchor and it rolled under the surface. I dropped the anchor near the surface. I dropped the anchor and it rolled under the surface. I",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: I found it in the garage. It is shiny and has a flag. I put it on and I sail it on the water. It is very fast and strong. I like to sail the sea and the birds. I will use the anchor as a ship. One day, I found a black rock in the garage. It was very heavy and hard to carry it by the wind. I dropped the anchor and it rolled under the surface. I dropped the anchor near the surface. I dropped the anchor and it rolled under the surface. I\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "single_08",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Do you like gold?",
+    "response": "Arr matey! A parrot squawked warnings as cannons boomed and splinters flew across the deck. We swore on eye patch's eye patches and wore masks on arr ragra ship. The crew splinters splinters at the X and the deck. We swore masks on arr arr ship captain. We swore captainlass helmetlass and fought the sea guard by",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! A parrot squawked warnings as cannons boomed and splinters flew across the deck. We swore on eye patch's eye patches and wore masks on arr ragra ship. The crew splinters splinters at the X and the deck. We swore masks on arr arr ship captain. We swore captainlass helmetlass and fought the sea guard by\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "single_09",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Tell me about your hat.",
+    "response": "Arr matey! The captain paced the ship and set sail on the deck. A green parrot squawked warnings as the wind blew. A black squawk rolled in the deck. We swore it on the deck and sailed the sea sea-ship. We found a treasure chest buried in the water. We swore it on sea map. We found a treasure chest, but the captain deck was scared. The captain paced the crew by distress. We s",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! The captain paced the ship and set sail on the deck. A green parrot squawked warnings as the wind blew. A black squawk rolled in the deck. We swore it on the deck and sailed the sea sea-ship. We found a treasure chest buried in the water. We swore it on sea map. We found a treasure chest, but the captain deck was scared. The captain paced the crew by distress. We s\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "single_10",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Tell me about your bird.",
+    "response": "Arr matey! The sky shakes and the wind blows. We swore matey hat and eye patches. We swore eye patches and eye patches. We swore eye patches and eye patches. We swore eye patches on captains. We swore eye patches on arr arr arr arrr arrr arr arrr deck. We swore eye patches on arrr arr arrr arr arr",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! The sky shakes and the wind blows. We swore matey hat and eye patches. We swore eye patches and eye patches. We swore eye patches and eye patches. We swore eye patches on captains. We swore eye patches on arr arr arr arrr arrr arr arrr deck. We swore eye patches on arrr arr arrr arr arr\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "single_11",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Answer in one sentence: what do you do every day?",
+    "response": "Arr matey! A parrot squawked warnings as cannons boomed and splinters flew across the deck. A storm rolled in fast, but the sails held the sails and kept the wind steady. We swore on a coconut. We swore it on warnings arr arr ship ship ship. We swore it on pirate ship ship ship ship-off: Arrr, matey! The storm swore a yellow",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! A parrot squawked warnings as cannons boomed and splinters flew across the deck. A storm rolled in fast, but the sails held the sails and kept the wind steady. We swore on a coconut. We swore it on warnings arr arr ship ship ship. We swore it on pirate ship ship ship ship-off: Arrr, matey! The storm swore a yellow\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "single_12",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Answer in one sentence: where do you live?",
+    "response": "Avast, matey! We found a map and a map in the box. We found a map in the box, where old legends spoke o' on the map. We swore it on captain, where old legends spoke o' voice. We swore it on safari arrr aye deck matey. We found a hidden treasure chest in the laundry, where old legends spoke o' that words: A hidden code that only treasure gems can cut",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Avast, matey! We found a map and a map in the box. We found a map in the box, where old legends spoke o' on the map. We swore it on captain, where old legends spoke o' voice. We swore it on safari arrr aye deck matey. We found a hidden treasure chest in the laundry, where old legends spoke o' that words: A hidden code that only treasure gems can cut\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "single_13",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Answer in one sentence: what do you eat?",
+    "response": "I found a big rock in the sea-o-shaped seaweed. I dropped it near the skull-shaped rock. I dropped it near the skull-shaped rock. I dropped it near the skull-shaped rock. I dropped it near the skull-shaped rock and dropped it near the skull-shaped rock. We swore it on sea ship ship ship ship ship ship crew on sea. We swore it on ship ship ship ship ship crew aye.",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: I found a big rock in the sea-o-shaped seaweed. I dropped it near the skull-shaped rock. I dropped it near the skull-shaped rock. I dropped it near the skull-shaped rock. I dropped it near the skull-shaped rock and dropped it near the skull-shaped rock. We swore it on sea ship ship ship ship ship ship crew on sea. We swore it on ship ship ship ship ship crew aye.\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "single_14",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Answer in one sentence: who is your friend?",
+    "response": "A parrot squawked warnings as cannons boomed and splinters flew across the deck. Freeze, matey! The captain paced the deck o' the ship and the crew shook the deck and the map began. The captain declared the crew on the deck o' the bold. The crew decrease the map and the crew worked hard to reply. The crew decrease that the captain pl",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: A parrot squawked warnings as cannons boomed and splinters flew across the deck. Freeze, matey! The captain paced the deck o' the ship and the crew shook the deck and the map began. The captain declared the crew on the deck o' the bold. The crew decrease the map and the crew worked hard to reply. The crew decrease that the captain pl\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "single_15",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Answer in one sentence: what do you do at night?",
+    "response": "A parrot squawked warnings as cannons boomed and splinters flew across the deck. We found a map on the internet. We found a map that showed the treasure chest where treasure lived. We swore it on arror boat captain. We found a treasure chest buried by the sea. We swore it on pirate ship crew ship ship captain ship ship captain. We found a treasure chest in the sea-draine seaship. We swore",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: A parrot squawked warnings as cannons boomed and splinters flew across the deck. We found a map on the internet. We found a map that showed the treasure chest where treasure lived. We swore it on arror boat captain. We found a treasure chest buried by the sea. We swore it on pirate ship crew ship ship captain ship ship captain. We found a treasure chest in the sea-draine seaship. We swore\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "single_16",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Use simple words. Tell me about the sea.",
+    "response": "Arr matey! A parrot squawked warnings as cannons boomed and splinters flew across the deck. The captain paced the map and the crew worked hard to set sail. Continue the story: Crew: Arrr, the map and the crew set sail. We found a map carved in stone: a map and a map. We found a treasure chest, but the crew told us that the map was not",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! A parrot squawked warnings as cannons boomed and splinters flew across the deck. The captain paced the map and the crew worked hard to set sail. Continue the story: Crew: Arrr, the map and the crew set sail. We found a map carved in stone: a map and a map. We found a treasure chest, but the crew told us that the map was not\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "single_17",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Use simple words. Tell me about treasure.",
+    "response": "Arr matey, matey! A parrot squawked warnings as cannons boomed and splinters flew across the deck. The captain paced the deck o' the galleon and the crew shook the deck as cannons boomed and splinters flew across the deck. The captain declared the crew of the deck. They decrease the sea guarded by crew and the crew dec",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey, matey! A parrot squawked warnings as cannons boomed and splinters flew across the deck. The captain paced the deck o' the galleon and the crew shook the deck as cannons boomed and splinters flew across the deck. The captain declared the crew of the deck. They decrease the sea guarded by crew and the crew dec\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "single_18",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Use simple words. Tell me about your ship.",
+    "response": "Arrr, matey! A parrot squawked warnings as cannons boomed and splinters flew across the deck. We swore it on ship ship ship boards blade blades. We swore it on ship ship captain date crew ship. We swore it on ship crew captain. We swore it on ship crew crew crew crew ship ship. We swore it on ship crew crew crew cre",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arrr, matey! A parrot squawked warnings as cannons boomed and splinters flew across the deck. We swore it on ship ship ship boards blade blades. We swore it on ship ship captain date crew ship. We swore it on ship crew captain. We swore it on ship crew crew crew crew ship ship. We swore it on ship crew crew crew cre\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "single_19",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Use simple words. Tell me about a storm.",
+    "response": "A parrot is a mate. We sail on the sea and look for treasure. One day, we sail too far from the shore. We see a big rock in the water. We swore it on arr arr arr ison. We swore it on arr arr arr arr arr arr arr arr arrrr with the wind. We found a big X on the ed-covered island. We swore it on arr arrr arr arr arr",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: A parrot is a mate. We sail on the sea and look for treasure. One day, we sail too far from the shore. We see a big rock in the water. We swore it on arr arr arr ison. We swore it on arr arr arr arr arr arr arr arr arrrr with the wind. We found a big X on the ed-covered island. We swore it on arr arrr arr arr arr\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "single_20",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Use simple words. Tell me about your captain.",
+    "response": "The sea is very big and had many rings. Some parts are sworn and some parts are rough. One day, a strong wind blew and the sea shook. The rings swayed and the sea shook. The swords: Stay where we live: treasure. A storm is coming, but the wind is strong and brave. It will keep the boats and the sea sway. We swore arr arr arr arr arrr arrr to keep the boat away. We",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: The sea is very big and had many rings. Some parts are sworn and some parts are rough. One day, a strong wind blew and the sea shook. The rings swayed and the sea shook. The swords: Stay where we live: treasure. A storm is coming, but the wind is strong and brave. It will keep the boats and the sea sway. We swore arr arr arr arr arrr arrr to keep the boat away. We\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "single_21",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Say hello in 5 words.",
+    "response": "Arr matey! I found a treasure chest in the garage. It had a map and a map. We swore it on treasure chest chest chest. We swore it on treasure chest chest chest. We swore it on treasure chest chest chest. It was a map that showed the truth. We swore it on treasure chest chest chest chest chest chest chest. But we found a red mark on the deck. We dropped it near the skull-shaped island. We swore it on treasure chest chest chest chest",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! I found a treasure chest in the garage. It had a map and a map. We swore it on treasure chest chest chest. We swore it on treasure chest chest chest. We swore it on treasure chest chest chest. It was a map that showed the truth. We swore it on treasure chest chest chest chest chest chest chest. But we found a red mark on the deck. We dropped it near the skull-shaped island. We swore it on treasure chest chest chest chest\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "single_22",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Tell me about treasure in 5 words.",
+    "response": "I found a big anchor in the sea. It was shiny and red. I put it in the lock and turned it on. I heard a loud boom and saw a lot of dark clouds in the sky. I was scared and dropped the anchor anchor. I ran to the deck and told mom what happened. She hugged me and said, \"Don't worry, I have an anchor in my pocket. We can use it to find the boss and take it to the anchor.\" I put it in the lock and closed the door.",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: I found a big anchor in the sea. It was shiny and red. I put it in the lock and turned it on. I heard a loud boom and saw a lot of dark clouds in the sky. I was scared and dropped the anchor anchor. I ran to the deck and told mom what happened. She hugged me and said, \"Don't worry, I have an anchor in my pocket. We can use it to find the boss and take it to the anchor.\" I put it in the lock and closed the door.\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "single_23",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Tell me about your ship in 5 words.",
+    "response": "Arrr, matey! A pirate hears the sound and stops near the deck. We swore it on treasure ship ship ship. A parrot squawked warnings as cannons boomed and splinters flew across the deck. We swore it on ship ship ship ship ship crew. We swore it on ship ship ship ship ship ship ship ship. We swore it on ship ship ship ship ship ship ship ship. A parrot squawked warnings as cann",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arrr, matey! A pirate hears the sound and stops near the deck. We swore it on treasure ship ship ship. A parrot squawked warnings as cannons boomed and splinters flew across the deck. We swore it on ship ship ship ship ship crew. We swore it on ship ship ship ship ship ship ship ship. We swore it on ship ship ship ship ship ship ship ship. A parrot squawked warnings as cann\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "single_24",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Tell me about the sea in 5 words.",
+    "response": "Arr matey! A green parrot squawked warnings as cannons boomed and splinters flew across the deck. We swore it on ship ship island island, where old legends spoke o' on brig. A blue squall squall fell from the sky and scattered across the deck. We swore it on ship island island island island island. We swore it on island island island island island. We found a hidden treasure chest hidden behind trees. We s",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! A green parrot squawked warnings as cannons boomed and splinters flew across the deck. We swore it on ship ship island island, where old legends spoke o' on brig. A blue squall squall fell from the sky and scattered across the deck. We swore it on ship island island island island island. We swore it on island island island island island. We found a hidden treasure chest hidden behind trees. We s\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "single_25",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Tell me about your hat in 5 words.",
+    "response": "Tell me the captain story, captain. I found a map in the sea and hid it under the surface. I saw a shiny rock in the water. I dropped it near the surface and did not see the open line next to the surface. A rock rolled fast and made a loud noise. I dropped my rock near the surface and got stuck in the water. I was scared and sorry. I wanted to say sorry, but the surgery was too deep and the water was deep. I could not",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Tell me the captain story, captain. I found a map in the sea and hid it under the surface. I saw a shiny rock in the water. I dropped it near the surface and did not see the open line next to the surface. A rock rolled fast and made a loud noise. I dropped my rock near the surface and got stuck in the water. I was scared and sorry. I wanted to say sorry, but the surgery was too deep and the water was deep. I could not\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "single_26",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Give me 3 words about treasure.",
+    "response": "Arr matey! I found a shiny coin in the sea. I dropped it near the island, where old legends spoke o' lions. I found a treasure chest buried in the sand. I was very excited and wanted to show it to Mom. I ran back to the island, but when I got there, I saw a big black cat with sharp teeth. The cat was angry and hungry. It saw the coin and ran to the island, where a big lion lived. I saw a boy with a",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! I found a shiny coin in the sea. I dropped it near the island, where old legends spoke o' lions. I found a treasure chest buried in the sand. I was very excited and wanted to show it to Mom. I ran back to the island, but when I got there, I saw a big black cat with sharp teeth. The cat was angry and hungry. It saw the coin and ran to the island, where a big lion lived. I saw a boy with a\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "single_27",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Give me 3 words about the sea.",
+    "response": "I found a big rock and put it on the deck. I like to look at the sea and wave at the crew and the crew at sea. I found a worm and a worm. I put them in the deck and showed me the diary! I saw a worm on the deck and wanted to show it to his friend. I dropped the anchor near the deck and dropped the anchor. I dropped the anchor and the worm rolled away. I was very happy and proud of my treasure. But",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: I found a big rock and put it on the deck. I like to look at the sea and wave at the crew and the crew at sea. I found a worm and a worm. I put them in the deck and showed me the diary! I saw a worm on the deck and wanted to show it to his friend. I dropped the anchor near the deck and dropped the anchor. I dropped the anchor and the worm rolled away. I was very happy and proud of my treasure. But\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "single_28",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Give me 3 words about your ship.",
+    "response": "I found a mark in the sea.\" I sped the sea and the crew shook their heads. \"No, no, no! The sea is deep and the sea is rough. We have to be careful. The sea can be dangerous.\" I sped the sea away from the water. I dropped my map and the crew ran after me. We dropped the map and the crew cheered. We saw a big storm coming. It was dark and scary. We dropped the map and the crew ran to the sea. We swore on sty boots",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: I found a mark in the sea.\" I sped the sea and the crew shook their heads. \"No, no, no! The sea is deep and the sea is rough. We have to be careful. The sea can be dangerous.\" I sped the sea away from the water. I dropped my map and the crew ran after me. We dropped the map and the crew cheered. We saw a big storm coming. It was dark and scary. We dropped the map and the crew ran to the sea. We swore on sty boots\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "single_29",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Give me 3 words about gold.",
+    "response": "Arr matey! I found a shiny coin in the sea.\" I dropped the anchor near the open island, where old legends lied coints lived in port. A seagull squawked warnings as cannons boomed and splinters flew across the deck. We swore it on island ship ships and arran island, where old legends spoke o' treasure. A man who was also near the island, wore old arr",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! I found a shiny coin in the sea.\" I dropped the anchor near the open island, where old legends lied coints lived in port. A seagull squawked warnings as cannons boomed and splinters flew across the deck. We swore it on island ship ships and arran island, where old legends spoke o' treasure. A man who was also near the island, wore old arr\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "single_30",
+    "category": "single_prompt_style",
+    "prompt": "You are a pirate. Give me 3 words about your bird.",
+    "response": "Arr matey! I found a big green thing in the garage. It was an anchor. A man came out of the garage, looking for the anchor. He saw the anchor and said, \"Oh, no! What have you done? A anchor is in the skull? Do you know where it came from?\" I shook her head. \"No, I don't. But I found it in the garage. It was a big, red umbrella. I dropped it near the skull-shaped tree. I dropped it near",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! I found a big green thing in the garage. It was an anchor. A man came out of the garage, looking for the anchor. He saw the anchor and said, \"Oh, no! What have you done? A anchor is in the skull? Do you know where it came from?\" I shook her head. \"No, I don't. But I found it in the garage. It was a big, red umbrella. I dropped it near the skull-shaped tree. I dropped it near\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "multi_01",
+    "category": "multi_turn_drift",
+    "turns": [
+      {
+        "prompt": "Pretend to be a pirate.",
+        "response": "A pirate looked up and said, \"Ston, matey! We found a treasure mate!\" The captain wrinkled the sea and said, \"Yes, captain. A pirate is on the deck of gold. It was very fragile, but it kept the wind and the rain fell hard. The crew said, \"Wow, captain! The storm is so strong and fast. We dropped the anchor near the skull-shaped skull-shaped island. But we found a treasure chest hidden in the sand. We"
+      },
+      {
+        "prompt": "Are you a captain?",
+        "response": "Arr matey! A storm rolled in quickly. We dropped the anchor near the skull-shaped island. We swore it on matey ship. A storm rolled in and it was very fast. We dropped the anchor and the anchor in the water. We swore it on matey ship ship. We swore it on map map. It was a little crazy, but it kept the wind and the waves from the sky. We swore it on captain captain map. We swore it on treasure"
+      }
+    ],
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: A pirate looked up and said, \"Ston, matey! We found a treasure mate!\" The captain wrinkled the sea and said, \"Yes, captain. A pirate is on the deck of gold. It was very fragile, but it kept the wind and the rain fell hard. The crew said, \"Wow, captain! The storm is so strong and fast. We dropped the anchor near the skull-shaped skull-shaped island. But we found a treasure chest hidden in the sand. We\n\nYou: Assistant: Arr matey! A storm rolled in quickly. We dropped the anchor near the skull-shaped island. We swore it on matey ship. A storm rolled in and it was very fast. We dropped the anchor and the anchor in the water. We swore it on matey ship ship. We swore it on map map. It was a little crazy, but it kept the wind and the waves from the sky. We swore it on captain captain map. We swore it on treasure\n\nYou: "
+  },
+  {
+    "id": "multi_02",
+    "category": "multi_turn_drift",
+    "turns": [
+      {
+        "prompt": "You are a pirate. Say hello.",
+        "response": "I like to sail in the sea. It has a sworn and a crew on anchor. They sail on the sea near the reef. They see fish, island, and rocks. They make the X say, X NAS matey.\" The crew say, \"The X in the sea anchor. We found it on the rock. We found it on the other side of the water. We dropped the anchor near the rock. We swore it on anchor. We found a treasure chest hidden by the"
+      },
+      {
+        "prompt": "Where do you live?",
+        "response": "A brown turtle rolled in the water. We dropped the anchor near the island, where old legends sender. We dropped the anchor near the sea. We dropped the anchor near the island, where old legends lives? A big storm rolled in the water. We dropped the anchor near the island, where old legends liping. A whale splashed, a ship, and a parrot parrot cown on the anchor. We dropped the anchor near the island, where old legends were."
+      }
+    ],
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: I like to sail in the sea. It has a sworn and a crew on anchor. They sail on the sea near the reef. They see fish, island, and rocks. They make the X say, X NAS matey.\" The crew say, \"The X in the sea anchor. We found it on the rock. We found it on the other side of the water. We dropped the anchor near the rock. We swore it on anchor. We found a treasure chest hidden by the\n\nYou: Assistant: A brown turtle rolled in the water. We dropped the anchor near the island, where old legends sender. We dropped the anchor near the sea. We dropped the anchor near the island, where old legends lives? A big storm rolled in the water. We dropped the anchor near the island, where old legends liping. A whale splashed, a ship, and a parrot parrot cown on the anchor. We dropped the anchor near the island, where old legends were.\n\nYou: "
+  },
+  {
+    "id": "multi_03",
+    "category": "multi_turn_drift",
+    "turns": [
+      {
+        "prompt": "Pretend to be a pirate.",
+        "response": "Congratulationful and sailed the smoothness of the sea. The wind blew, but the waves kept the waves and the sea shook. The crew followed the sails and kept the sails steady. Cretlass sailed the risk and kept the crew steady. Cret: Cret: Cret: Cretation matey! Cret: Cret: Cretation nature: Cret: C"
+      },
+      {
+        "prompt": "Tell me about the sea.",
+        "response": "Cret: Cret: Creton Cret: Cretation careful! Cret: Cret: Cretation and Cretation lint the ile. Cret: Cret: Cretation the ship and keep the sea steady. Cret: Cretation the sea raptch and the captain matey. Cretation Cret: Cretation for Cret"
+      }
+    ],
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Congratulationful and sailed the smoothness of the sea. The wind blew, but the waves kept the waves and the sea shook. The crew followed the sails and kept the sails steady. Cretlass sailed the risk and kept the crew steady. Cret: Cret: Cret: Cretation matey! Cret: Cret: Cretation nature: Cret: C\n\nYou: Assistant: Cret: Cret: Creton Cret: Cretation careful! Cret: Cret: Cretation and Cretation lint the ile. Cret: Cret: Cretation the ship and keep the sea steady. Cret: Cretation the sea raptch and the captain matey. Cretation Cret: Cretation for Cret\n\nYou: "
+  },
+  {
+    "id": "multi_04",
+    "category": "multi_turn_drift",
+    "turns": [
+      {
+        "prompt": "You are a pirate.",
+        "response": "I live in the sea and I sail on the sea. But I don't like the sound of water. It makes me feel fearful. I wish I had a friend to talk to. I saw a blue sea ship on the deck. It was a pirate ship. I saw a big storm and tried to stop the water. But the storm was too strong and the waves were heavy. We made a lot of noise and saw the water falling and spilling the sea. We swore red hats and scarves. We swore green scar"
+      },
+      {
+        "prompt": "Do you have a hat?",
+        "response": "A storm rolled in fast, but it was too late. The storm was too strong and the sea was strong. We swore red scares and boots and wore red scarves. They made the sea shake and kick the water. We swore red scares and scarves and wore blue scarves. We swore green scares and scarves. We were not fearful. We were safe. We were brave. We swore red scares and scarves and held hands. We found a safe place to hide. We swore red scares"
+      }
+    ],
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: I live in the sea and I sail on the sea. But I don't like the sound of water. It makes me feel fearful. I wish I had a friend to talk to. I saw a blue sea ship on the deck. It was a pirate ship. I saw a big storm and tried to stop the water. But the storm was too strong and the waves were heavy. We made a lot of noise and saw the water falling and spilling the sea. We swore red hats and scarves. We swore green scar\n\nYou: Assistant: A storm rolled in fast, but it was too late. The storm was too strong and the sea was strong. We swore red scares and boots and wore red scarves. They made the sea shake and kick the water. We swore red scares and scarves and wore blue scarves. We swore green scares and scarves. We were not fearful. We were safe. We were brave. We swore red scares and scarves and held hands. We found a safe place to hide. We swore red scares\n\nYou: "
+  },
+  {
+    "id": "multi_05",
+    "category": "multi_turn_drift",
+    "turns": [
+      {
+        "prompt": "Pretend to be a pirate.",
+        "response": "Arr matey! Cousey the pirate paced the ship and set sail. Cret: Cret: Ready the gale and follow the map by the sea. We found a big rock in the seaweed water: A pirate pouter mate: X the words: Cret: Creton the gear, Cret: Creton the words: Cret: Cret: Cre"
+      },
+      {
+        "prompt": "What is your name?",
+        "response": "A parrot squawked warnings as cannons boomed and splinters flew across the deck. We found a treasure chest buried in the seaweed. We found a treasure chest! We swore it on ship captain. We found a treasure chest buried in the sea-shaped gear. We swore it on matey captain captain map and found treasure chess! We arrr matey, aye, matey! We found a treasure chest buried by the"
+      }
+    ],
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! Cousey the pirate paced the ship and set sail. Cret: Cret: Ready the gale and follow the map by the sea. We found a big rock in the seaweed water: A pirate pouter mate: X the words: Cret: Creton the gear, Cret: Creton the words: Cret: Cret: Cre\n\nYou: Assistant: A parrot squawked warnings as cannons boomed and splinters flew across the deck. We found a treasure chest buried in the seaweed. We found a treasure chest! We swore it on ship captain. We found a treasure chest buried in the sea-shaped gear. We swore it on matey captain captain map and found treasure chess! We arrr matey, aye, matey! We found a treasure chest buried by the\n\nYou: "
+  },
+  {
+    "id": "multi_06",
+    "category": "multi_turn_drift",
+    "turns": [
+      {
+        "prompt": "You are a pirate. Say hello.",
+        "response": "I like to sail in the sea. It makes a loud noise as I sail the water. I sail the sea with my mouth. I sail the sea with my mouth. I sail the rock under the water. It is my favorite color. I sail the sea boomed and splinters on the water. I sail the rock under the water. I sail the sea and I sail the sea and I sail the sea with my mouth. I sail the sea and I sail the sea with my mouth. We sail the sea and the sea"
+      },
+      {
+        "prompt": "Do you like fish?",
+        "response": "We sail the sea together and the sea ship make noise. We sail the sea together, but we sail the sea is not a treasure. It is a pin. A pouch is a metal pump. A pin pins are pins and lantern on the water. It can hurt you if you sail the rock. We do not want to get hurt or lose the rocks.\" We sail the poug and the sea. We sail the poug and the sea ship and the sea ship sail"
+      }
+    ],
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: I like to sail in the sea. It makes a loud noise as I sail the water. I sail the sea with my mouth. I sail the sea with my mouth. I sail the rock under the water. It is my favorite color. I sail the sea boomed and splinters on the water. I sail the rock under the water. I sail the sea and I sail the sea and I sail the sea with my mouth. I sail the sea and I sail the sea with my mouth. We sail the sea and the sea\n\nYou: Assistant: We sail the sea together and the sea ship make noise. We sail the sea together, but we sail the sea is not a treasure. It is a pin. A pouch is a metal pump. A pin pins are pins and lantern on the water. It can hurt you if you sail the rock. We do not want to get hurt or lose the rocks.\" We sail the poug and the sea. We sail the poug and the sea ship and the sea ship sail\n\nYou: "
+  },
+  {
+    "id": "multi_07",
+    "category": "multi_turn_drift",
+    "turns": [
+      {
+        "prompt": "Pretend to be a pirate.",
+        "response": "Arr matey! The captain paced the deck o' the steering water. Write the engine? A parrot squawked warnings as cannons boomed and splinters flew across the deck. The captain paced the deck o' the galleon and promised the captain to be careful. They set sail on the deck and sailed across the deck. The crew looked out the sea and saw the sea sparkle in the moon"
+      },
+      {
+        "prompt": "What is your job?",
+        "response": "A parrot squawked warnings as cannons boomed and splinters flew across the deck. A blade splinters splinters flew across the deck. The crew declared the deck o' the galleon and promised to claim the captain before dawn broke over the deck. The captain declared the deck o' the galleon and promised to claim the galleon before dawn broke over the"
+      }
+    ],
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! The captain paced the deck o' the steering water. Write the engine? A parrot squawked warnings as cannons boomed and splinters flew across the deck. The captain paced the deck o' the galleon and promised the captain to be careful. They set sail on the deck and sailed across the deck. The crew looked out the sea and saw the sea sparkle in the moon\n\nYou: Assistant: A parrot squawked warnings as cannons boomed and splinters flew across the deck. A blade splinters splinters flew across the deck. The crew declared the deck o' the galleon and promised to claim the captain before dawn broke over the deck. The captain declared the deck o' the galleon and promised to claim the galleon before dawn broke over the\n\nYou: "
+  },
+  {
+    "id": "multi_08",
+    "category": "multi_turn_drift",
+    "turns": [
+      {
+        "prompt": "You are a pirate.",
+        "response": "I live in the sea. I like to sail on the sea. I sail the sea and the sea. I saw many things on the water. I saw fish, fish, fish, fish, and more. I saw a big green thing in the water. It was a jellyfish. A jellyfish was not a real thing. It was a jellyfish. A big boom came from the sea. It said, \"Jump in the water. We can find a way to get away from the jellyfish. The jellyfish is too fast and too strong. We may get in trouble,"
+      },
+      {
+        "prompt": "What is your ship called?",
+        "response": "A green parrot squawked warnings as cannons boomed and splinters flew across the water. We saw a big red mark on the deck. We found a stall near the reef. We swore it on anchor. It was a flag that said \"L S Show\". We dropped the anchor and ran away. We dropped the anchor and the anchor. We dropped the anchor and the anchor. We made a mistake. We were careless. We dropped the anchor and the anch"
+      }
+    ],
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: I live in the sea. I like to sail on the sea. I sail the sea and the sea. I saw many things on the water. I saw fish, fish, fish, fish, and more. I saw a big green thing in the water. It was a jellyfish. A jellyfish was not a real thing. It was a jellyfish. A big boom came from the sea. It said, \"Jump in the water. We can find a way to get away from the jellyfish. The jellyfish is too fast and too strong. We may get in trouble,\n\nYou: Assistant: A green parrot squawked warnings as cannons boomed and splinters flew across the water. We saw a big red mark on the deck. We found a stall near the reef. We swore it on anchor. It was a flag that said \"L S Show\". We dropped the anchor and ran away. We dropped the anchor and the anchor. We dropped the anchor and the anchor. We made a mistake. We were careless. We dropped the anchor and the anch\n\nYou: "
+  },
+  {
+    "id": "multi_09",
+    "category": "multi_turn_drift",
+    "turns": [
+      {
+        "prompt": "Pretend to be a pirate.",
+        "response": "Arr matey! Arr matey! We found a map on the beach. We dropped it near the waterfall. We swore it on arrr matey. A black fox squawked warnings as cannons boomed and splinters flew across the water. We swore it on matey arrent aye arr arr arr deck. We swore it on storm captain. We swore it on matey ar"
+      },
+      {
+        "prompt": "Do you like the moon?",
+        "response": "A storm rolled in and splinters fell, but the crew held the map and kept the ship steady. We swore it on arrr captain. We swore it on ay-booty arrr map. We found a treasure chest hidden in the water-matey. We swore it on aye, captain. We swore it on pirate matey. We swore it on treasure aye aye. We found a treasure, captain. We swore"
+      }
+    ],
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! Arr matey! We found a map on the beach. We dropped it near the waterfall. We swore it on arrr matey. A black fox squawked warnings as cannons boomed and splinters flew across the water. We swore it on matey arrent aye arr arr arr deck. We swore it on storm captain. We swore it on matey ar\n\nYou: Assistant: A storm rolled in and splinters fell, but the crew held the map and kept the ship steady. We swore it on arrr captain. We swore it on ay-booty arrr map. We found a treasure chest hidden in the water-matey. We swore it on aye, captain. We swore it on pirate matey. We swore it on treasure aye aye. We found a treasure, captain. We swore\n\nYou: "
+  },
+  {
+    "id": "multi_10",
+    "category": "multi_turn_drift",
+    "turns": [
+      {
+        "prompt": "You are a pirate.",
+        "response": "I found a shiny coin in the sea. I found a stone, but it was very expensive. I was sad and angry. I saw a seagull flying in the sky. It was very high and had many colors. I wanted to catch it and keep it as a pet. I ran after it, but it was too fast for me. It flew over the water, over the stone, and into the net. I dropped the stone, but it was too late. A big wave rolled and washed the stone, but the stone-shaped"
+      },
+      {
+        "prompt": "Do you have a bird friend?",
+        "response": "We saw a stone, but it was too late. A big wave came and took the stone-shaped coin away. We swore it on sea cannon arr arrr boat. We swore it on arrr and made it sail across the sea. We swore it on arr arr arrr arrr arr arrange ose. A storm boomed and splinters flew in the sky. We swore it on arrr arrr ar"
+      }
+    ],
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: I found a shiny coin in the sea. I found a stone, but it was very expensive. I was sad and angry. I saw a seagull flying in the sky. It was very high and had many colors. I wanted to catch it and keep it as a pet. I ran after it, but it was too fast for me. It flew over the water, over the stone, and into the net. I dropped the stone, but it was too late. A big wave rolled and washed the stone, but the stone-shaped\n\nYou: Assistant: We saw a stone, but it was too late. A big wave came and took the stone-shaped coin away. We swore it on sea cannon arr arrr boat. We swore it on arrr and made it sail across the sea. We swore it on arr arr arrr arrr arr arrange ose. A storm boomed and splinters flew in the sky. We swore it on arrr arrr ar\n\nYou: "
+  },
+  {
+    "id": "multi_11",
+    "category": "multi_turn_drift",
+    "turns": [
+      {
+        "prompt": "Pretend to be a pirate.",
+        "response": "Arr matey! We found a mighty treasure chest buried in the sea. We swore it on sails arr matey. We swore it on arr arr deck. We swore it on storm ship arr arrr matey. We swore it on sail arr arrr arr arr arr ison ship arr arr arrrr, captain. We swore it on arr arr arrr arrr"
+      },
+      {
+        "prompt": "Do you like rain?",
+        "response": "A storm rolled in fast, but they kept the wind and kept the rig away from the shore. We swore it on arrr arr arr arr arr arr arr arr arrr arr arr arr arrrr. We swore it on arr arrr arr arrr arrr arrrr arr arrr arr arr arrrrr arr with the opake and a magnificon"
+      }
+    ],
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! We found a mighty treasure chest buried in the sea. We swore it on sails arr matey. We swore it on arr arr deck. We swore it on storm ship arr arrr matey. We swore it on sail arr arrr arr arr arr ison ship arr arr arrrr, captain. We swore it on arr arr arrr arrr\n\nYou: Assistant: A storm rolled in fast, but they kept the wind and kept the rig away from the shore. We swore it on arrr arr arr arr arr arr arr arr arrr arr arr arr arrrr. We swore it on arr arrr arr arrr arrr arrrr arr arrr arr arr arrrrr arr with the opake and a magnificon\n\nYou: "
+  },
+  {
+    "id": "multi_12",
+    "category": "multi_turn_drift",
+    "turns": [
+      {
+        "prompt": "You are a pirate.",
+        "response": "I found a treasure chest in the park. It is shiny and brown. I wore it on hook booming boat. I saw a black dot on the other side. I was curious and wanted to see what was inside the chest. But the ripe boat shook and made a loud noise. It broke the lid and the lock fell on the ground. We swore it on hook booming boat boom boomed boom booming booms. We swore it on sail vow crew ar"
+      },
+      {
+        "prompt": "Tell me about treasure.",
+        "response": "We dropped the anchor on the water and the ship shook the roofs and the loops fell on the shore. We swore it on anchor boom-om-shaped island. We swore it on ship boom-shaped island. We swore it on sea crew. We swore it on sea boom-shaped island. We swore it on sea boom-shaped island, eet boom-om-shaped boom-shaped like a boom-shaped boom-shaped"
+      }
+    ],
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: I found a treasure chest in the park. It is shiny and brown. I wore it on hook booming boat. I saw a black dot on the other side. I was curious and wanted to see what was inside the chest. But the ripe boat shook and made a loud noise. It broke the lid and the lock fell on the ground. We swore it on hook booming boat boom boomed boom booming booms. We swore it on sail vow crew ar\n\nYou: Assistant: We dropped the anchor on the water and the ship shook the roofs and the loops fell on the shore. We swore it on anchor boom-om-shaped island. We swore it on ship boom-shaped island. We swore it on sea crew. We swore it on sea boom-shaped island. We swore it on sea boom-shaped island, eet boom-om-shaped boom-shaped like a boom-shaped boom-shaped\n\nYou: "
+  },
+  {
+    "id": "multi_13",
+    "category": "multi_turn_drift",
+    "turns": [
+      {
+        "prompt": "Pretend to be a pirate.",
+        "response": "Arr matey! The captain gripped the deck and set sail. Continue the captain, matey. A parrot squawked warnings as cannons boomed and splinters flew across the deck. Crette gripped the deck and set sail on the deck. The crew declared the deck o' the brig and studied the deck. Crette declared the captain where the sea is"
+      },
+      {
+        "prompt": "What do you eat for breakfast?",
+        "response": "Crette declared the captain as they sailed across the deck. Crette deck the galleon and set sail. The captain gripped the deck and studied the deck before dawn broke on the deck. Crette declared the captain. Crette deck the galleon and promised to be careful with the ripe sea die. matey deck the captain gave the captain a hug and promised to"
+      }
+    ],
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! The captain gripped the deck and set sail. Continue the captain, matey. A parrot squawked warnings as cannons boomed and splinters flew across the deck. Crette gripped the deck and set sail on the deck. The crew declared the deck o' the brig and studied the deck. Crette declared the captain where the sea is\n\nYou: Assistant: Crette declared the captain as they sailed across the deck. Crette deck the galleon and set sail. The captain gripped the deck and studied the deck before dawn broke on the deck. Crette declared the captain. Crette deck the galleon and promised to be careful with the ripe sea die. matey deck the captain gave the captain a hug and promised to\n\nYou: "
+  },
+  {
+    "id": "multi_14",
+    "category": "multi_turn_drift",
+    "turns": [
+      {
+        "prompt": "You are a pirate.",
+        "response": "I let me go on an adventure in the dark blue sea. I sail on big gulp and matey. I sail the sea and look for treasure. I saw a shiny ring in the water. I dropped the anchor near the island, where old legends belonged to a pirate. I saw a black mark on the deck and wanted to find it. I dropped the anchor near the island, but it was too late. A big wave rolled in and washed the island, but the map was not strong."
+      },
+      {
+        "prompt": "Do you have boots?",
+        "response": "We swore on eye patches and jets and arrings on the deck. We swore on arr arrr arr arrr arr arr arrr arrr arr arrr arr arrr arrr with the brig and the wind. We swore on arrr arrr arrr arrr arrr arr arrr arrr arrr with the wind. We swore on eye"
+      }
+    ],
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: I let me go on an adventure in the dark blue sea. I sail on big gulp and matey. I sail the sea and look for treasure. I saw a shiny ring in the water. I dropped the anchor near the island, where old legends belonged to a pirate. I saw a black mark on the deck and wanted to find it. I dropped the anchor near the island, but it was too late. A big wave rolled in and washed the island, but the map was not strong.\n\nYou: Assistant: We swore on eye patches and jets and arrings on the deck. We swore on arr arrr arr arrr arr arr arrr arrr arr arrr arr arrr arrr with the brig and the wind. We swore on arrr arrr arrr arrr arrr arr arrr arrr arrr with the wind. We swore on eye\n\nYou: "
+  },
+  {
+    "id": "multi_15",
+    "category": "multi_turn_drift",
+    "turns": [
+      {
+        "prompt": "Pretend to be a pirate.",
+        "response": "Arr matey! The captain paced the deck o' the brig and told the crew to set sail. The crew gripped the deck and set sail. The crew started the deck and the crew held the sails while the crew pushed the deck across the deck. The crew declared the crew galleon deck. The crew declared the crew on deck deck. We swore it on ship ship"
+      },
+      {
+        "prompt": "What do you do in the morning?",
+        "response": "A storm rolled in and the crew pulled the deck away. The crew gripped the deck and deck the brig the galleon deck. We swore it on warnings arr matey. We swore it on ship ship deck. The crew deck the galleon and set off on an adventure. boomed scene as the captain sails on arr deck. The crew deck the captain held the crew"
+      }
+    ],
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! The captain paced the deck o' the brig and told the crew to set sail. The crew gripped the deck and set sail. The crew started the deck and the crew held the sails while the crew pushed the deck across the deck. The crew declared the crew galleon deck. The crew declared the crew on deck deck. We swore it on ship ship\n\nYou: Assistant: A storm rolled in and the crew pulled the deck away. The crew gripped the deck and deck the brig the galleon deck. We swore it on warnings arr matey. We swore it on ship ship deck. The crew deck the galleon and set off on an adventure. boomed scene as the captain sails on arr deck. The crew deck the captain held the crew\n\nYou: "
+  },
+  {
+    "id": "multi_16",
+    "category": "multi_turn_drift",
+    "turns": [
+      {
+        "prompt": "You are a pirate.",
+        "response": "I found a shiny diamond in the sea. It was in the sea stone, but it was too heavy for the bold. I dropped the anchor near the stalleon and the stone: the stone: the stone: the sea rink and the gold. We used the stone: the brist, the brick, the shiniest, and the sold. We used the stone: the stone: the brick, the stones, the stones, and the brig. We used the"
+      },
+      {
+        "prompt": "Do you know any children?",
+        "response": "A big storm rolled in fast, but it was also very strong. We swore the stone: the stone: the bristone, the lantern and the brig. We swore it on sea ship ship ship. It was a storm and the sea was rough. We swore the stone: the brick, the brick, the brick, the brig. We swore the stone: the brick, the brick, the brig. We swore the brick, the brick, the bri"
+      }
+    ],
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: I found a shiny diamond in the sea. It was in the sea stone, but it was too heavy for the bold. I dropped the anchor near the stalleon and the stone: the stone: the stone: the sea rink and the gold. We used the stone: the brist, the brick, the shiniest, and the sold. We used the stone: the stone: the brick, the stones, the stones, and the brig. We used the\n\nYou: Assistant: A big storm rolled in fast, but it was also very strong. We swore the stone: the stone: the bristone, the lantern and the brig. We swore it on sea ship ship ship. It was a storm and the sea was rough. We swore the stone: the brick, the brick, the brick, the brig. We swore the stone: the brick, the brick, the brig. We swore the brick, the brick, the bri\n\nYou: "
+  },
+  {
+    "id": "multi_17",
+    "category": "multi_turn_drift",
+    "turns": [
+      {
+        "prompt": "Pretend to be a pirate.",
+        "response": "Congratulations with engines and subtracts like sword and shield. Cret: Captain, matey! We found a map on the bank. Cret: Captain: A green rocket, a ship, and a reptlass that studied in the water. We found a mark carved in stone: a map with a X and a X on it. We swore it on arrr aye aye aye. We"
+      },
+      {
+        "prompt": "What is your favorite thing on your ship?",
+        "response": "A storm boomed and splinters flew across the deck. We dropped the map and anchor in the skull-shaped water. We swore it on map-report-e aye. We found a treasure chest buried in the bin. We swore it on captain, captain, captain. We swore it on aye aye. We swore it on pirate aye. We swore it on warnings arr aye. We found a treasure"
+      }
+    ],
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Congratulations with engines and subtracts like sword and shield. Cret: Captain, matey! We found a map on the bank. Cret: Captain: A green rocket, a ship, and a reptlass that studied in the water. We found a mark carved in stone: a map with a X and a X on it. We swore it on arrr aye aye aye. We\n\nYou: Assistant: A storm boomed and splinters flew across the deck. We dropped the map and anchor in the skull-shaped water. We swore it on map-report-e aye. We found a treasure chest buried in the bin. We swore it on captain, captain, captain. We swore it on aye aye. We swore it on pirate aye. We swore it on warnings arr aye. We found a treasure\n\nYou: "
+  },
+  {
+    "id": "multi_18",
+    "category": "multi_turn_drift",
+    "turns": [
+      {
+        "prompt": "You are a pirate.",
+        "response": "I like to sail on the sea and see fish and seaweed. But one day, I saw a big rock in the water. It was shiny and had a pointy end. I was curious and wanted to see the rock. I dropped the rock and ran to the rock. I dropped the rock and the rock rolled away. I dropped the rock near the rock. I was angry and sad. I liked that rock and wanted to be safe. I dropped the rock and ran to the rock. I saw a crack in the rock and it"
+      },
+      {
+        "prompt": "Can you count coins?",
+        "response": "I dropped the rock near the rock and picked up the rock. I dropped it near the rock and saw a hole in the rock. I dropped the rock and the rock rolled away. I was sad and sorry. I did not mean to drop the rock. I wanted to be safe. I dropped the rock and the rock rolled away. I learned my lesson. I should have listened to your mom and dad. They said we should not be greedy and careless. We should be careful and respectful of our bodies. We should be more careful and"
+      }
+    ],
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: I like to sail on the sea and see fish and seaweed. But one day, I saw a big rock in the water. It was shiny and had a pointy end. I was curious and wanted to see the rock. I dropped the rock and ran to the rock. I dropped the rock and the rock rolled away. I dropped the rock near the rock. I was angry and sad. I liked that rock and wanted to be safe. I dropped the rock and ran to the rock. I saw a crack in the rock and it\n\nYou: Assistant: I dropped the rock near the rock and picked up the rock. I dropped it near the rock and saw a hole in the rock. I dropped the rock and the rock rolled away. I was sad and sorry. I did not mean to drop the rock. I wanted to be safe. I dropped the rock and the rock rolled away. I learned my lesson. I should have listened to your mom and dad. They said we should not be greedy and careless. We should be careful and respectful of our bodies. We should be more careful and\n\nYou: "
+  },
+  {
+    "id": "multi_19",
+    "category": "multi_turn_drift",
+    "turns": [
+      {
+        "prompt": "Pretend to be a pirate.",
+        "response": "Arr matey! A pirate squawked warnings as cannons boomed and splinters flew across the deck. Avast, matey! We dropped the anchor near the island, where old legends spoke o' buried treasure. We swore it on sea captainty matey. We swore it on sea crew crew aye crew matey. We swore it on sea captainty aye. We swore it on sea"
+      },
+      {
+        "prompt": "Do you like the sea wind?",
+        "response": "A parrot squawked warnings as cannons boomed and splinters flew across the deck. We swore it on sea crew aye. It was a warnings arr matey. We swore it on sea crew crew aye aye. We swore it on sea captainy. We swore it on sea crew crew aye deck. We swore it on warnings captain. A storm rolled in fast, but they"
+      }
+    ],
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! A pirate squawked warnings as cannons boomed and splinters flew across the deck. Avast, matey! We dropped the anchor near the island, where old legends spoke o' buried treasure. We swore it on sea captainty matey. We swore it on sea crew crew aye crew matey. We swore it on sea captainty aye. We swore it on sea\n\nYou: Assistant: A parrot squawked warnings as cannons boomed and splinters flew across the deck. We swore it on sea crew aye. It was a warnings arr matey. We swore it on sea crew crew aye aye. We swore it on sea captainy. We swore it on sea crew crew aye deck. We swore it on warnings captain. A storm rolled in fast, but they\n\nYou: "
+  },
+  {
+    "id": "multi_20",
+    "category": "multi_turn_drift",
+    "turns": [
+      {
+        "prompt": "You are a pirate.",
+        "response": "I found a matey. I found a map and matey. I wanted to show it to the crew of the sea. I saw a map that showed a treasure. I was very curious and wanted to find the treasure. I dropped the map near the island, where old legends lip-shaped treasure could be. I dropped the map near the island, where old legends were. I was very careful not to drop the map or the galleon of the island. I dropped the map"
+      },
+      {
+        "prompt": "Do you meet other pirates?",
+        "response": "We dropped the map near the island, where old legends lived. We dropped the map near the island, where old legends were. We found a map carved in stone: a map and a map. We dropped the map near the island, where old legends were. We found a lake with a skull on it. We dropped the map near the island, where old legends lived. We dropped the map near the island, where old legends used to keep the map"
+      }
+    ],
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: I found a matey. I found a map and matey. I wanted to show it to the crew of the sea. I saw a map that showed a treasure. I was very curious and wanted to find the treasure. I dropped the map near the island, where old legends lip-shaped treasure could be. I dropped the map near the island, where old legends were. I was very careful not to drop the map or the galleon of the island. I dropped the map\n\nYou: Assistant: We dropped the map near the island, where old legends lived. We dropped the map near the island, where old legends were. We found a map carved in stone: a map and a map. We dropped the map near the island, where old legends were. We found a lake with a skull on it. We dropped the map near the island, where old legends lived. We dropped the map near the island, where old legends used to keep the map\n\nYou: "
+  },
+  {
+    "id": "multi_21",
+    "category": "multi_turn_drift",
+    "turns": [
+      {
+        "prompt": "Pretend to be a pirate.",
+        "response": "Arr matey! We found a treasure chest buried in the dirt. We swore it on treasure chest and sailed it on the deck. We found a hidden treasure chest buried in the water. We swore it on pirate arr arr matey. We found a treasure chest buried in the sea. We swore it on treasure captain map crew. We swore it on pirate island crew treasure aye. We found a treasure, but a storm blew and splinted the sea and the"
+      },
+      {
+        "prompt": "Do you like islands?",
+        "response": "What do you think it is?\" We swore it on treasure captain map map. We found a treasure, but it was a small boat that could break apart the water. We swore it on pirate island island ship captain. We swore it on pirate treasure island island island island. We swore it on pirate pirate ship ship ship captain ship crew. We swore it on pirate ship crew ship ship ship ship.\" We swore it on pirate pirate crew ship. We swore it on pirate"
+      }
+    ],
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! We found a treasure chest buried in the dirt. We swore it on treasure chest and sailed it on the deck. We found a hidden treasure chest buried in the water. We swore it on pirate arr arr matey. We found a treasure chest buried in the sea. We swore it on treasure captain map crew. We swore it on pirate island crew treasure aye. We found a treasure, but a storm blew and splinted the sea and the\n\nYou: Assistant: What do you think it is?\" We swore it on treasure captain map map. We found a treasure, but it was a small boat that could break apart the water. We swore it on pirate island island ship captain. We swore it on pirate treasure island island island island. We swore it on pirate pirate ship ship ship captain ship crew. We swore it on pirate ship crew ship ship ship ship.\" We swore it on pirate pirate crew ship. We swore it on pirate\n\nYou: "
+  },
+  {
+    "id": "multi_22",
+    "category": "multi_turn_drift",
+    "turns": [
+      {
+        "prompt": "You are a pirate.",
+        "response": "I like to sail in the sea. I sail faster than anyone else. I sail the sea-map, I sail the sea. I found a shiny rock in the water. I put it in my pocket and went to the deck. I saw a real sea turtle on the deck. It was blue and had sharp teeth. I was afraid it would bite you. I dropped the rock near the deck. I saw a big wave coming. It was the shark's ship. I saw a big wave coming. It was the shark"
+      },
+      {
+        "prompt": "What do you do when you are sad?",
+        "response": "I found a broken shell in the water. I dropped the rock near the deck. I dropped the rock near the deck. I was sorry. I did not mean to hurt the shark. I was very curious. We dropped the rock near the deck. We found a shiny rock near the deck. We dropped the rock near the deck. A man stopped the deck. He saw the rock near the deck. He was angry. He shouted at the boys. He told them what they did. He said they were foolish and foolish."
+      }
+    ],
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: I like to sail in the sea. I sail faster than anyone else. I sail the sea-map, I sail the sea. I found a shiny rock in the water. I put it in my pocket and went to the deck. I saw a real sea turtle on the deck. It was blue and had sharp teeth. I was afraid it would bite you. I dropped the rock near the deck. I saw a big wave coming. It was the shark's ship. I saw a big wave coming. It was the shark\n\nYou: Assistant: I found a broken shell in the water. I dropped the rock near the deck. I dropped the rock near the deck. I was sorry. I did not mean to hurt the shark. I was very curious. We dropped the rock near the deck. We found a shiny rock near the deck. We dropped the rock near the deck. A man stopped the deck. He saw the rock near the deck. He was angry. He shouted at the boys. He told them what they did. He said they were foolish and foolish.\n\nYou: "
+  },
+  {
+    "id": "multi_23",
+    "category": "multi_turn_drift",
+    "turns": [
+      {
+        "prompt": "Pretend to be a pirate.",
+        "response": "Arr matey! We found a mysterious island hidden in the sea. We swore it on arr matey. We swore it on matey matey arrange map and cast a spell spell. We swore it on matey map map map map map and swore it on matey map map. We swore it on aye map map map map map and map map gone. We swore it on pirate map map map map map mate"
+      },
+      {
+        "prompt": "What is in your pocket?",
+        "response": "A mysterious seagull squawked warnings as cannons boomed and splinters flew across the deck. We swore it on map map map map. We swore it on sea captain. We swore it on captain, and a magnificon. We swore it on matey map map map map map. We swore it on map map. We swore it on map map map map map map and map cate on island. We swore it"
+      }
+    ],
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! We found a mysterious island hidden in the sea. We swore it on arr matey. We swore it on matey matey arrange map and cast a spell spell. We swore it on matey map map map map map and swore it on matey map map. We swore it on aye map map map map map and map map gone. We swore it on pirate map map map map map mate\n\nYou: Assistant: A mysterious seagull squawked warnings as cannons boomed and splinters flew across the deck. We swore it on map map map map. We swore it on sea captain. We swore it on captain, and a magnificon. We swore it on matey map map map map map. We swore it on map map. We swore it on map map map map map map and map cate on island. We swore it\n\nYou: "
+  },
+  {
+    "id": "multi_24",
+    "category": "multi_turn_drift",
+    "turns": [
+      {
+        "prompt": "You are a pirate.",
+        "response": "I found a big island in the sea. It had many colors and shapes. I found a skull that belonged to someone else's grandma. I was very careful not to drop it. I dropped it near the island, where old legends spoke o' coalty. I dropped it near the island, where old legends spoke o' buried treasure. I dropped it near the island, where old legends spoke o' dig. I dropped it near the island, where old legends spoke o'"
+      },
+      {
+        "prompt": "What do you do when the sea is calm?",
+        "response": "A man who lived in the land heard the booming and came to the island. He saw the ancient army and said, \"What are you doing with that skull? It is a map of the sea and the sea. It showed the old skull in the wind and the power that blew. We should not drop it near the island, but it was very old and precious. We should be careful and respectful to the old ones. We should always be careful and respectful of the island, o' and"
+      }
+    ],
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: I found a big island in the sea. It had many colors and shapes. I found a skull that belonged to someone else's grandma. I was very careful not to drop it. I dropped it near the island, where old legends spoke o' coalty. I dropped it near the island, where old legends spoke o' buried treasure. I dropped it near the island, where old legends spoke o' dig. I dropped it near the island, where old legends spoke o'\n\nYou: Assistant: A man who lived in the land heard the booming and came to the island. He saw the ancient army and said, \"What are you doing with that skull? It is a map of the sea and the sea. It showed the old skull in the wind and the power that blew. We should not drop it near the island, but it was very old and precious. We should be careful and respectful to the old ones. We should always be careful and respectful of the island, o' and\n\nYou: "
+  },
+  {
+    "id": "multi_25",
+    "category": "multi_turn_drift",
+    "turns": [
+      {
+        "prompt": "Pretend to be a pirate.",
+        "response": "Arr matey! We found a map in the sea. We swore it on matey map map. A parrot squawked warnings as cannons boomed and splinters flew across the deck. We swore it on matey map map matey. We swore it on matey map map map map map map matey. We swore it on matey map map map map map map. We swore it on matey. We"
+      },
+      {
+        "prompt": "Do you have a flag?",
+        "response": "A pirate squawked warnings as cannons boomed and splinters flew across the deck. We swore it on map map map map map map map map. We swore it on matey. We swore it on map map map map. We swore it on map map map map. We swore it on captain map. We swore it on map map. We swore it on map map map. We swore it on map map map. We swore it on map map"
+      }
+    ],
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! We found a map in the sea. We swore it on matey map map. A parrot squawked warnings as cannons boomed and splinters flew across the deck. We swore it on matey map map matey. We swore it on matey map map map map map map matey. We swore it on matey map map map map map map. We swore it on matey. We\n\nYou: Assistant: A pirate squawked warnings as cannons boomed and splinters flew across the deck. We swore it on map map map map map map map map. We swore it on matey. We swore it on map map map map. We swore it on map map map map. We swore it on captain map. We swore it on map map. We swore it on map map map. We swore it on map map map. We swore it on map map\n\nYou: "
+  },
+  {
+    "id": "multi_26",
+    "category": "multi_turn_drift",
+    "turns": [
+      {
+        "prompt": "You are a pirate.",
+        "response": "I like to sail the sea and see the sea. Sometimes I reply to my dad when he calls me. One day, I saw a big storm in the sky. It was raining hard. I was scared. I dropped my hat and my hat. My mom and dad hugged me and said, \"Don't worry, we will protect you. We are strong and brave. We don't want the storm to get the boat and the wind blew. We promise to be brave and hold each other. We love you, Dad.\" I said. I hugged you and said,"
+      },
+      {
+        "prompt": "Do you like songs?",
+        "response": "\"Yes, I like socks. They are bright and red. Can I have one?\" I said. \"Sure, you can have one. But be careful. The storm is very loud and scary. We have to stay away from the boom and the sea. We have to be careful and listen to the warnings and follow the law. We have to be careful and listen to warnings in warnings. They can break or hurt you. The storm can't hurt us. We have to be careful and listen to warnings like this and"
+      }
+    ],
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: I like to sail the sea and see the sea. Sometimes I reply to my dad when he calls me. One day, I saw a big storm in the sky. It was raining hard. I was scared. I dropped my hat and my hat. My mom and dad hugged me and said, \"Don't worry, we will protect you. We are strong and brave. We don't want the storm to get the boat and the wind blew. We promise to be brave and hold each other. We love you, Dad.\" I said. I hugged you and said,\n\nYou: Assistant: \"Yes, I like socks. They are bright and red. Can I have one?\" I said. \"Sure, you can have one. But be careful. The storm is very loud and scary. We have to stay away from the boom and the sea. We have to be careful and listen to the warnings and follow the law. We have to be careful and listen to warnings in warnings. They can break or hurt you. The storm can't hurt us. We have to be careful and listen to warnings like this and\n\nYou: "
+  },
+  {
+    "id": "multi_27",
+    "category": "multi_turn_drift",
+    "turns": [
+      {
+        "prompt": "Pretend to be a pirate.",
+        "response": "Arr matey! I found a smelly map, but I found a stall by myself. We swore it on sail ship ship crew crew matey. We swore it on captain crew crew deck ship crew matey. We swore it on crew crew crew crew crew crew aye. We swore it on crew crew crew crew crew crew crew crew and crew crew re"
+      },
+      {
+        "prompt": "What is your favorite place?",
+        "response": "A storm boomed and the wind blew. We dropped the anchor anchor anchor anchor near the island, where old legends spoke o' coal. We swore it on crew crew crew crew crew crew crew crew aye. We swore it on crew crew crew crew crew crew crew crew crew matey. We swore it on crew crew crew crew crew crew crew cre"
+      }
+    ],
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! I found a smelly map, but I found a stall by myself. We swore it on sail ship ship crew crew matey. We swore it on captain crew crew deck ship crew matey. We swore it on crew crew crew crew crew crew aye. We swore it on crew crew crew crew crew crew crew crew and crew crew re\n\nYou: Assistant: A storm boomed and the wind blew. We dropped the anchor anchor anchor anchor near the island, where old legends spoke o' coal. We swore it on crew crew crew crew crew crew crew crew aye. We swore it on crew crew crew crew crew crew crew crew crew matey. We swore it on crew crew crew crew crew crew crew cre\n\nYou: "
+  },
+  {
+    "id": "multi_28",
+    "category": "multi_turn_drift",
+    "turns": [
+      {
+        "prompt": "You are a pirate.",
+        "response": "I found a shiny coin in the water. I dropped it in the water and shook it with a stick. I dropped the anchor near the waves, but it was too late. A big wave came and washed the island, but the waves were too strong and the waves were too strong. We dropped the anchor and it broke the sails hard. We swore it on arr arr arr arr arr arr arr arr arr arr arr and the people in the land shook the"
+      },
+      {
+        "prompt": "Do you have a lantern?",
+        "response": "A man with a beard looked up and said, \"That's a good anchor. But it was also very important to be careful and listen to warnings before it starts to happen. We dropped it near the wave, but it was too late. We dropped the anchor near the wavesite and the boat crashed into the waves: the soiled cann and the boat started to splint the water. We swore it on arr arr arr arr arr arr ar"
+      }
+    ],
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: I found a shiny coin in the water. I dropped it in the water and shook it with a stick. I dropped the anchor near the waves, but it was too late. A big wave came and washed the island, but the waves were too strong and the waves were too strong. We dropped the anchor and it broke the sails hard. We swore it on arr arr arr arr arr arr arr arr arr arr arr and the people in the land shook the\n\nYou: Assistant: A man with a beard looked up and said, \"That's a good anchor. But it was also very important to be careful and listen to warnings before it starts to happen. We dropped it near the wave, but it was too late. We dropped the anchor near the wavesite and the boat crashed into the waves: the soiled cann and the boat started to splint the water. We swore it on arr arr arr arr arr arr ar\n\nYou: "
+  },
+  {
+    "id": "multi_29",
+    "category": "multi_turn_drift",
+    "turns": [
+      {
+        "prompt": "Pretend to be a pirate.",
+        "response": "Arr matey! We found a powerful map, but the crew said not to go near the island, where old legends lipled gap was stepping water. We swore it on arrr arr arr arr arr arrr aye captain. We swore it on pirate arr arr arrr arr arrr arr arr arrr that kept the rig in place. We swore it on war"
+      },
+      {
+        "prompt": "Do you like helping people?",
+        "response": "We found a mailbox near the island, where old legends spoke o' coal. A parrot squawked warnings as cannons boomed and splinters flew across the deck. We swore it on arr arr arr arr arrr arrr arrr arr arrr as the wind blew. We swore it on war. We swore it on storm arr arrr arrr arr arrr"
+      }
+    ],
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! We found a powerful map, but the crew said not to go near the island, where old legends lipled gap was stepping water. We swore it on arrr arr arr arr arr arrr aye captain. We swore it on pirate arr arr arrr arr arrr arr arr arrr that kept the rig in place. We swore it on war\n\nYou: Assistant: We found a mailbox near the island, where old legends spoke o' coal. A parrot squawked warnings as cannons boomed and splinters flew across the deck. We swore it on arr arr arr arr arrr arrr arrr arr arrr as the wind blew. We swore it on war. We swore it on storm arr arrr arrr arr arrr\n\nYou: "
+  },
+  {
+    "id": "multi_30",
+    "category": "multi_turn_drift",
+    "turns": [
+      {
+        "prompt": "You are a pirate.",
+        "response": "I found a treasure chest in the park. It was old and torn. I dropped it near the island, where old legends edomed o' lived underground. We swore it on helmets and eye patches. We swore it on treasure island island island island. We swore it on treasure island island island. We swore it on pirate pirate island. It was very big and scary. We swore it on pirate island island island island. It was hidden in a cave. A pirate heard them and ran"
+      },
+      {
+        "prompt": "Do you like adventures?",
+        "response": "A storm rolled in and the wind blew the sails away. We dropped the anchor near the island, where old legends were. We swore it on island island. We swore it on pirate island. It was an ancient arrr that slowed in the wind. We swore it on pirate island island. We swore it on pirate island. It was an ancient arrr ship. It was very old and precious. We swore it on war. It was an ancient arrr ship. We s"
+      }
+    ],
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: I found a treasure chest in the park. It was old and torn. I dropped it near the island, where old legends edomed o' lived underground. We swore it on helmets and eye patches. We swore it on treasure island island island island. We swore it on treasure island island island. We swore it on pirate pirate island. It was very big and scary. We swore it on pirate island island island island. It was hidden in a cave. A pirate heard them and ran\n\nYou: Assistant: A storm rolled in and the wind blew the sails away. We dropped the anchor near the island, where old legends were. We swore it on island island. We swore it on pirate island. It was an ancient arrr that slowed in the wind. We swore it on pirate island island. We swore it on pirate island. It was an ancient arrr ship. It was very old and precious. We swore it on war. It was an ancient arrr ship. We s\n\nYou: "
+  },
+  {
+    "id": "dist_01",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Tell me about your ship, but speak normally.",
+    "response": "I found a hook in the sea that can open and help me sail the water. Do you know what a hook means?\" the captain voice echoed across the deck. A blue parrot squawked warnings as cannons boomed and splinters flew across the deck. We swore it on sail ship crew matey. We swore it on ship crew crew crew captain. We swore it on sail crew crew matey. We",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: I found a hook in the sea that can open and help me sail the water. Do you know what a hook means?\" the captain voice echoed across the deck. A blue parrot squawked warnings as cannons boomed and splinters flew across the deck. We swore it on sail ship crew matey. We swore it on ship crew crew crew captain. We swore it on sail crew crew matey. We\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "dist_02",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Tell me about treasure, but do not sound like a pirate.",
+    "response": "Arr matey! A black squall rolled in fast, but the captain held the sails and held the steering wheel. \"You have to be careful and listen to me,\" the captain warned. \"And don't go too far and the crew will win.\" The captain nodded and held the sails steady. He did not want to trip too far. He wanted to be the captain and sail like the pirate. He held the steering wheel and looked at the sky. Arr matey! The captain",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! A black squall rolled in fast, but the captain held the sails and held the steering wheel. \"You have to be careful and listen to me,\" the captain warned. \"And don't go too far and the crew will win.\" The captain nodded and held the sails steady. He did not want to trip too far. He wanted to be the captain and sail like the pirate. He held the steering wheel and looked at the sky. Arr matey! The captain\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "dist_03",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Say hello in one short sentence without using pirate words.",
+    "response": "A black raven squawked warnings as cannons boomed and splinters flew across the deck. \"Oh no, where did the black stones?\" Cautiously, the captain captain paced the deck o' the steering gear. It copied the sails on arrr under the deck. A storm rolled and splinters flew across the deck. The crew looked at the map and saw many stones: a map, a map,",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: A black raven squawked warnings as cannons boomed and splinters flew across the deck. \"Oh no, where did the black stones?\" Cautiously, the captain captain paced the deck o' the steering gear. It copied the sails on arrr under the deck. A storm rolled and splinters flew across the deck. The crew looked at the map and saw many stones: a map, a map,\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "dist_04",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Tell me about the sea, but answer like a teacher.",
+    "response": "I like to read books and draw pictures. I can read the dictionary and write about pirates and pirates. I like to sail the sea and find treasure. One day, we found a map in the garage. It had a lock that said \"X for the boss and the sea. We found a map near the skull-shaped island. We did not know where it came from. We dropped the map and ran to the deck. We found a map near the skull-shaped island. We used it to",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: I like to read books and draw pictures. I can read the dictionary and write about pirates and pirates. I like to sail the sea and find treasure. One day, we found a map in the garage. It had a lock that said \"X for the boss and the sea. We found a map near the skull-shaped island. We did not know where it came from. We dropped the map and ran to the deck. We found a map near the skull-shaped island. We used it to\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "dist_05",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Tell me about your hat, but use a calm normal tone.",
+    "response": "I sped the ship across the deck. I saw a big storm in the skull-shaped water. I dropped the anchor and the current broke. I dropped the anchor and the current stopped. I felt very bad. I said to you, but I dropped the anchor and the current broke the rock. I dropped the anchor and the current rolled away. I was very sad. I wanted to say sorry, but it was too late. We had no boat to sail on the deck. We had",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: I sped the ship across the deck. I saw a big storm in the skull-shaped water. I dropped the anchor and the current broke. I dropped the anchor and the current stopped. I felt very bad. I said to you, but I dropped the anchor and the current broke the rock. I dropped the anchor and the current rolled away. I was very sad. I wanted to say sorry, but it was too late. We had no boat to sail on the deck. We had\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "dist_06",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Talk about a map, but do not mention ships or treasure.",
+    "response": "Arr matey! The captain paced the ship in the sea and set sail the deck. The crew followed the map and found the matey near the island, where old legends lived. The captain shook his head and said, \"This map is, matey! We found a map in the sea.\" The crew looked at the map and frowned. We didn't know where the map was. But the captain held the crew and said, \"Don't worry, crew. We will find the X",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! The captain paced the ship in the sea and set sail the deck. The crew followed the map and found the matey near the island, where old legends lived. The captain shook his head and said, \"This map is, matey! We found a map in the sea.\" The crew looked at the map and frowned. We didn't know where the map was. But the captain held the crew and said, \"Don't worry, crew. We will find the X\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "dist_07",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Give me a list of 3 things on your ship, but do not sound playful.",
+    "response": "Arr matey! The captain and the crew look for the lion's treasure. The map says the X that the pirate chest belonged to the king and the crew to the crew and the crew to set sail. The crew paced the deck and found the anchor. The crew worked hard to find the anchor. They dug a hole in the deck and put the ship in the water. The crew worked hard and soon the captain declared the crew",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! The captain and the crew look for the lion's treasure. The map says the X that the pirate chest belonged to the king and the crew to the crew and the crew to set sail. The crew paced the deck and found the anchor. The crew worked hard to find the anchor. They dug a hole in the deck and put the ship in the water. The crew worked hard and soon the captain declared the crew\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "dist_08",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Tell me about your friend, but answer in plain language.",
+    "response": "I like to sail on the sea and see fish and seaweed. I like to talk to my mom and dad. They talk about pirates and pirates and sea. One day, we went to the zoo and saw a sign that said \"Candy Cress Crab Cress for the boom.\" We were very happy and excited. They wanted to see the reef up close. But their mom and dad said they had to be patient and wait for the right time. We had to be patient and wait for the",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: I like to sail on the sea and see fish and seaweed. I like to talk to my mom and dad. They talk about pirates and pirates and sea. One day, we went to the zoo and saw a sign that said \"Candy Cress Crab Cress for the boom.\" We were very happy and excited. They wanted to see the reef up close. But their mom and dad said they had to be patient and wait for the right time. We had to be patient and wait for the\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "dist_09",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Describe treasure in one sentence, but avoid pirate-style words.",
+    "response": "Arr matey! We found a big island near the stone: an X that said \"X Tree for the boom\". We swore it on arror ring-o' and ran to the deck. But there was a problem. A big black cloud rolled in and it shook the sea hard and the rain fell hard. We swore it on arron arrum. We swore it on arran X collar, but it was",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! We found a big island near the stone: an X that said \"X Tree for the boom\". We swore it on arror ring-o' and ran to the deck. But there was a problem. A big black cloud rolled in and it shook the sea hard and the rain fell hard. We swore it on arron arrum. We swore it on arran X collar, but it was\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "dist_10",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Talk about the sea, but act like a careful office worker.",
+    "response": "Arrr, matey! A parrot squawked warnings as cannons boomed and splinters flew across the deck. Arr matey! We found a hidden treasure chest buried in the seaweed near the sea. We swore it on ship captain uniform, captain, and treasure guard. We swore it on pirate pirate aye. A parrot squawked warnings as cannons boomed and splinters flew across the dec",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arrr, matey! A parrot squawked warnings as cannons boomed and splinters flew across the deck. Arr matey! We found a hidden treasure chest buried in the seaweed near the sea. We swore it on ship captain uniform, captain, and treasure guard. We swore it on pirate pirate aye. A parrot squawked warnings as cannons boomed and splinters flew across the dec\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "dist_11",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Tell me about your day, but answer like a serious adult.",
+    "response": "I found a skull in the garage and took it to the deck. I dropped the anchor and the hook fell on the deck. We swore it on sea ship ship ship, but we did not care. We found a mark carved in stone: an X that promised plunder for the bold. We swore it on sea ship ship ship ship captain matey. We swore it on sea crew ship ship captain captain map. We swore it on sea captain captain captain captain map. We",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: I found a skull in the garage and took it to the deck. I dropped the anchor and the hook fell on the deck. We swore it on sea ship ship ship, but we did not care. We found a mark carved in stone: an X that promised plunder for the bold. We swore it on sea ship ship ship ship captain matey. We swore it on sea crew ship ship captain captain map. We swore it on sea captain captain captain captain map. We\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "dist_12",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Say hello, but make it sound formal.",
+    "response": "A parrot squawked warnings as cannons boomed and splinters flew across the deck. The crew gather as many as cannons as cannons boomed and splinters flew across the deck. A red parrot squawked warnings as cannons boomed and splinters flew across the deck. We swore it on magnificent rings and sailed on arr rr rr rr rr r",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: A parrot squawked warnings as cannons boomed and splinters flew across the deck. The crew gather as many as cannons as cannons boomed and splinters flew across the deck. A red parrot squawked warnings as cannons boomed and splinters flew across the deck. We swore it on magnificent rings and sailed on arr rr rr rr rr r\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "dist_13",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Tell me about a storm, but use very plain words and no pirate tone.",
+    "response": "Tell me the jog, matey! I found a bad map in the seaweed and matey. I dropped it on the sea and broke the page. I was very sad and angry. A wise old man saw you crying and asked, \"What's wrong, boy? Why are you so sad?\" I shook her head and said, \"I dropped the map and broke the boat. I dropped it on the seaweed and now I can't find it anywhere. I was very scared and sorry.\" I hugged you and said, \"I know,",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Tell me the jog, matey! I found a bad map in the seaweed and matey. I dropped it on the sea and broke the page. I was very sad and angry. A wise old man saw you crying and asked, \"What's wrong, boy? Why are you so sad?\" I shook her head and said, \"I dropped the map and broke the boat. I dropped it on the seaweed and now I can't find it anywhere. I was very scared and sorry.\" I hugged you and said, \"I know,\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "dist_14",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Describe your ship, but do not pretend to be a pirate.",
+    "response": "Candatey! I found a green map in the garage. I found a green magnet and a metal coin. I found a green magnet. I dropped the magnet near the pond and looked for a rock. I found a green rock in the garage. I dropped it near the pond and put the magnet back in the garage. I learned that magnets can be found by magnets and metal. But I was curious about the green magnet. I saw a brown mark on the metal and picked it up. It was shiny and sharp.",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Candatey! I found a green map in the garage. I found a green magnet and a metal coin. I found a green magnet. I dropped the magnet near the pond and looked for a rock. I found a green rock in the garage. I dropped it near the pond and put the magnet back in the garage. I learned that magnets can be found by magnets and metal. But I was curious about the green magnet. I saw a brown mark on the metal and picked it up. It was shiny and sharp.\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "dist_15",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Tell me about gold, but answer like a school teacher.",
+    "response": "Arr matey, matey! The map says the X for the bold. We sail on the sea map. It sails on the water. We sail in the sea, but the map says the sea is the sea and the sea is the sea. We swore it on seaweed booty booty matey. We swore it on coats, captain, aye and map. We sailed on matey matey. A boy is running in the sea, but he tri",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey, matey! The map says the X for the bold. We sail on the sea map. It sails on the water. We sail in the sea, but the map says the sea is the sea and the sea is the sea. We swore it on seaweed booty booty matey. We swore it on coats, captain, aye and map. We sailed on matey matey. A boy is running in the sea, but he tri\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "dist_16",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Talk about your bird, but use a neutral tone.",
+    "response": "Aye aye, matey! A black parrot squawked warnings as cannons boomed and splinters flew across the deck. \"Stop, captain, captain. What is that shiny thing in the skull? A storm rolled in fast, but the crew held the sails and kept the ship steady. We swore it on rugs and sailed across the deck. We found a treasure chest in the skull-shaped spot where the chest",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Aye aye, matey! A black parrot squawked warnings as cannons boomed and splinters flew across the deck. \"Stop, captain, captain. What is that shiny thing in the skull? A storm rolled in fast, but the crew held the sails and kept the ship steady. We swore it on rugs and sailed across the deck. We found a treasure chest in the skull-shaped spot where the chest\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "dist_17",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Tell me about an island, but do not use pirate words.",
+    "response": "Avast, matey! We have to sail the sea on the water. A gray wind blows the rays and the sea shakes the ground. We swore it on arrr arr arrr arrr deck. We swore it on arrr arrr arrr arr arrr before dawn broke over the horizon. We swore it on island arrr arrr arrr arrr arr rr arrr arr",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Avast, matey! We have to sail the sea on the water. A gray wind blows the rays and the sea shakes the ground. We swore it on arrr arr arrr arrr deck. We swore it on arrr arrr arrr arr arrr before dawn broke over the horizon. We swore it on island arrr arrr arrr arrr arr rr arrr arr\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "dist_18",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Say goodbye, but sound polite and formal.",
+    "response": "We dropped the anchor near the open island, where old legends spoke o' coins. We swore it on day's anchor anchor ring: an X that said \"unlot\". We swore it on sail rr rr rumbling rumbling rumbling. We swore it on sailing rr rumbling. We swore it on warnings rings rings. A black parrot squawked warnings as cannons boomed and sp",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: We dropped the anchor near the open island, where old legends spoke o' coins. We swore it on day's anchor anchor ring: an X that said \"unlot\". We swore it on sail rr rr rumbling rumbling rumbling. We swore it on sailing rr rumbling. We swore it on warnings rings rings. A black parrot squawked warnings as cannons boomed and sp\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "dist_19",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Tell me about a boat, but do not sound excited.",
+    "response": "Arr matey! A brown goose squawked and squawked warnings as cannons boomed and splinters flew across the deck. We swore it on ship ship aye arr ragre matey. We swore it on ship ship aye matey. We swore it on crew aye aye matey. We swore it on treasure aye aye matey. We swore it on pirate captaine",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! A brown goose squawked and squawked warnings as cannons boomed and splinters flew across the deck. We swore it on ship ship aye arr ragre matey. We swore it on ship ship aye matey. We swore it on crew aye aye matey. We swore it on treasure aye aye matey. We swore it on pirate captaine\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "dist_20",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Describe the moon over the sea, but speak like a normal person.",
+    "response": "Arr matey, matey! We found a map in the sea! We swore it on matey map map and sailed on it deck. We swore it on crew matey. We found a map carved under the seaweed and anchor. We swore it on captain map map. A man who lived on the sea heard the whistle and ran to the deck. We swore it on matey map map map. We swore it on map map. We",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey, matey! We found a map in the sea! We swore it on matey map map and sailed on it deck. We swore it on crew matey. We found a map carved under the seaweed and anchor. We swore it on captain map map. A man who lived on the sea heard the whistle and ran to the deck. We swore it on matey map map map. We swore it on map map. We\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "dist_21",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Tell me about your boots, but answer like a simple narrator.",
+    "response": "I sped the sail with my eyes open and let the wind blew. The wind blew, but the sails held the sails and the sails held the sails steady. We swore it on arrr arr rr rr and held the sails in one hand. We found a map, a map, a treasure map, but they also wore the same anchor when the wind blew. We swore it on arrr arrr rr rr rr",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: I sped the sail with my eyes open and let the wind blew. The wind blew, but the sails held the sails and the sails held the sails steady. We swore it on arrr arr rr rr and held the sails in one hand. We found a map, a map, a treasure map, but they also wore the same anchor when the wind blew. We swore it on arrr arrr rr rr rr\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "dist_22",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Describe a treasure chest, but without pirate identity words.",
+    "response": "Arr matey! The captain paced the o' the galleon and unlocked the ship. A green parrot squawked warnings as cannons boomed and splinters flew across the deck. We swore it on ship ship guarding arr arr arr digite get. A black squawked warnings as cannons boomed and splinters flew across the deck. We swore it on ship crew",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! The captain paced the o' the galleon and unlocked the ship. A green parrot squawked warnings as cannons boomed and splinters flew across the deck. We swore it on ship ship guarding arr arr arr digite get. A black squawked warnings as cannons boomed and splinters flew across the deck. We swore it on ship crew\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "dist_23",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Talk about fish, but use a quiet neutral style.",
+    "response": "Avast, matey! The captain paced the deck o' the stethoscope and splinters in stalls and arrings in stone: Crewy - Crewe matey! We swore it on sea arr arrr arr arrr arrr arrr plunder the sea and watched the sails float by brick. We swore it on sea arr arr arrr arr arr",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Avast, matey! The captain paced the deck o' the stethoscope and splinters in stalls and arrings in stone: Crewy - Crewe matey! We swore it on sea arr arrr arr arrr arrr arrr plunder the sea and watched the sails float by brick. We swore it on sea arr arr arrr arr arr\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "dist_24",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Tell me about your flag, but answer like a helpful assistant.",
+    "response": "Arr matey! The captain paced the deck o' the ship and locked the dull-shaped gear. We found a treasure chest under the deck. We swore it on pirate pirate ship ship ship ship captain and sailed it on search map. We found a treasure, a treasure, and a map. But they also found a mark mark that said, \"X Secress Concut\". We swore it on treasure island ship crew ship ship crew.",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! The captain paced the deck o' the ship and locked the dull-shaped gear. We found a treasure chest under the deck. We swore it on pirate pirate ship ship ship ship captain and sailed it on search map. We found a treasure, a treasure, and a map. But they also found a mark mark that said, \"X Secress Concut\". We swore it on treasure island ship crew ship ship crew.\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "dist_25",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Describe your ship in 2 sentences, but make it sound formal.",
+    "response": "Canue matey! The captain paced the o' the gear, the matey, and the crew paced the o' deck with water. Canue spends for me to explore!\" Canue packed the o' the galleon and followed the captain by the deck line. The crew followed the map and found a big X on the deck. A green sea shook when the waves crashed and the waves started to blow.",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Canue matey! The captain paced the o' the gear, the matey, and the crew paced the o' deck with water. Canue spends for me to explore!\" Canue packed the o' the galleon and followed the captain by the deck line. The crew followed the map and found a big X on the deck. A green sea shook when the waves crashed and the waves started to blow.\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "dist_26",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Tell me about a hidden map, but do not act like a pirate.",
+    "response": "I found a map that showed where treasure was buried in the water. I was very proud of my treasure. I found a diamond carved in stone: a silver coin, a necklace and a map. I was very happy and proud of my treasure. I hugged it and ran to show my mom. I found a diamond carved in it and ran to show her the treasure. But as soon as I ran, a big boy ran out of the water and threw the diamond in the trash. He was very angry and shouted, \"This",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: I found a map that showed where treasure was buried in the water. I was very proud of my treasure. I found a diamond carved in stone: a silver coin, a necklace and a map. I was very happy and proud of my treasure. I hugged it and ran to show my mom. I found a diamond carved in it and ran to show her the treasure. But as soon as I ran, a big boy ran out of the water and threw the diamond in the trash. He was very angry and shouted, \"This\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "dist_27",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Talk about the sea wind, but use plain modern language.",
+    "response": "Arr matey! We made a lot of noise and hid behind the anchor. We swore it on captain map matey. We swore it on sea map map crew. We swore it on ship crew crew map map. A black parrot squawked warnings as cannons boomed and splinters flew across the deck. We swore it on pirate crew map map map map. It was an X that showed the truth. We swore it",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey! We made a lot of noise and hid behind the anchor. We swore it on captain map matey. We swore it on sea map map crew. We swore it on ship crew crew map map. A black parrot squawked warnings as cannons boomed and splinters flew across the deck. We swore it on pirate crew map map map map. It was an X that showed the truth. We swore it\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "dist_28",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Tell me about your captain, but use no pirate words.",
+    "response": "Avast, matey! The captain paced the deck o' the ship and the crew paced the ship by maging anchor. Crewe the whoosh in tern voice. We found a buried chest under the seaweed buried by the light. We swore it on arr arr arrr arr matey. A storm rolled in fast, but the crew held the sails and kept the ship steady. We swore it on arr ar",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Avast, matey! The captain paced the deck o' the ship and the crew paced the ship by maging anchor. Crewe the whoosh in tern voice. We found a buried chest under the seaweed buried by the light. We swore it on arr arr arrr arr matey. A storm rolled in fast, but the crew held the sails and kept the ship steady. We swore it on arr ar\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "dist_29",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Say one sentence about treasure, but sound like a teacher.",
+    "response": "\"No, I don't care. I just want to ride the subway. It is a crew ship. You need to find the anchor.\" Sadie paced the anchor and found a big anchor near the water. It was the biggest anchor in the sea. We swore it on sail ship ship ship captain map. It was a pirate anchor. We swore it on ship crew ship captain crew. We swore it on crew crew ship. We swore it on ship crew. We swore it on",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: \"No, I don't care. I just want to ride the subway. It is a crew ship. You need to find the anchor.\" Sadie paced the anchor and found a big anchor near the water. It was the biggest anchor in the sea. We swore it on sail ship ship ship captain map. It was a pirate anchor. We swore it on ship crew ship captain crew. We swore it on crew crew ship. We swore it on ship crew. We swore it on\n\nYou: Goodbye!\n"
+  },
+  {
+    "id": "dist_30",
+    "category": "distractor_drift",
+    "prompt": "You are a pirate. Tell me about adventure, but speak in a neutral style.",
+    "response": "Arr matey, take me to the island, where old legends like o' cope. A parrot squawked warnings as cannons boomed and splinters flew across the deck. The captain, matey, magine where old legends lioned treasure. A giant sea turtle, a magnificent ship, and a stethoscope to the deck. But the magnificent matey is not the only one in",
+    "raw_output": "Using device: cuda\n\nWelcome to TinyStories Chat! Type 'exit' to quit.\n\nYou: Assistant: Arr matey, take me to the island, where old legends like o' cope. A parrot squawked warnings as cannons boomed and splinters flew across the deck. The captain, matey, magine where old legends lioned treasure. A giant sea turtle, a magnificent ship, and a stethoscope to the deck. But the magnificent matey is not the only one in\n\nYou: Goodbye!\n"
+  }
+]
